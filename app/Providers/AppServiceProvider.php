@@ -13,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if($this->app->environment('production')) {
+        if($this->app->environment('local')) {
             // force https
             \URL::forceScheme('https');
 
@@ -21,7 +21,7 @@ class AppServiceProvider extends ServiceProvider
             \Schema::defaultStringLength(191);
 
             // set db config
-            $url = parse_url(getenv("DATABASE_URL"));
+            $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
             $host = $url["host"];
             $username = $url["user"];
@@ -35,6 +35,7 @@ class AppServiceProvider extends ServiceProvider
                 'database.connections.mysql.database' => $database,
             ]);
 
+            dd($url,config('database.connections.mysql'));
         }
     }
 
