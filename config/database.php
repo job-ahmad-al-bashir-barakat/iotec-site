@@ -1,13 +1,5 @@
 <?php
 
-// set db config
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-
-$host = $url["host"];
-$username = $url["user"];
-$password = $url["pass"];
-$database = substr($url["path"], 1);
-
 return [
 
     /*
@@ -21,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql_production'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -46,22 +38,6 @@ return [
             'database' => env('DB_DATABASE', database_path('database.sqlite')),
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
-        ],
-
-        'mysql_production' => [
-            'driver' => 'mysql',
-            'host' => $host,
-            'port' => env('DB_PORT', '3306'),
-            'database' => $database,
-            'username' => $username,
-            'password' => $password,
-            'unix_socket' => env('DB_SOCKET', ''),
-            'charset' => 'utf8mb4',
-            'collation' => 'utf8mb4_unicode_ci',
-            'prefix' => '',
-            'prefix_indexes' => true,
-            'strict' => true,
-            'engine' => null,
         ],
 
         'mysql' => [

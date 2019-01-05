@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Config;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -20,7 +21,7 @@ class AppServiceProvider extends ServiceProvider
             // fix Specified key was too long; max key length is 767 bytes error
             \Schema::defaultStringLength(191);
 
-/*            // set db config
+            // set db config
             $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
             $host = $url["host"];
@@ -28,12 +29,10 @@ class AppServiceProvider extends ServiceProvider
             $password = $url["pass"];
             $database = substr($url["path"], 1);
 
-            config([
-                'database.connections.mysql.host' => $host,
-                'database.connections.mysql.username' => $username,
-                'database.connections.mysql.password' => $password,
-                'database.connections.mysql.database' => $database,
-            ]);*/
+            Config::set('database.connections.mysql.host',$host);
+            Config::set('database.connections.mysql.username',$username);
+            Config::set('database.connections.mysql.password',$password);
+            Config::set('database.connections.mysql.database',$database);
         }
     }
 
