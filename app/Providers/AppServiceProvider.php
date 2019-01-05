@@ -13,7 +13,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if($this->app->environment('local')) {
+        if($this->app->environment('production')) {
             // force https
             \URL::forceScheme('https');
 
@@ -27,6 +27,7 @@ class AppServiceProvider extends ServiceProvider
             $username = $url["user"];
             $password = $url["pass"];
             $database = substr($url["path"], 1);
+
 
             config([
                 'database.connections.mysql.host' => $host,
