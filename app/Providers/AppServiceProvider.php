@@ -17,6 +17,9 @@ class AppServiceProvider extends ServiceProvider
             // force https
             \URL::forceScheme('https');
 
+            // fix Specified key was too long; max key length is 767 bytes error
+            Schema::defaultStringLength(191);
+
             // set db config
             $url = parse_url(getenv("DATABASE_URL"));
 
