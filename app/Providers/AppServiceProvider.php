@@ -35,8 +35,6 @@ class AppServiceProvider extends ServiceProvider
                 'database.connections.mysql.password' => $password,
                 'database.connections.mysql.database' => $database,
             ]);
-
-            dd($url,config('database.connections.mysql'));
         }
     }
 
