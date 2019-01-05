@@ -13,11 +13,9 @@
         "inspheric/nova-url-field": "^1.1",
         "koss-shtukert/laravel-nova-select2-auto-complete": "^1.2",
         "laravel/framework": "5.7.*",
-        "laravel/nova": "*",
+        "laravel/nova": "~1.0",
         "laravel/tinker": "^1.0",
         "naxon/nova-field-sortable": "^1.0",
-        "nova/autocomplete": "*",
-        "nova/croppie": "*",
         "orangehill/iseed": "^2.6"
     },
     "require-dev": {
@@ -44,16 +42,8 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "./nova"
-        },
-        {
-            "type": "path",
-            "url": "./nova-components/Croppie"
-        },
-        {
-            "type": "path",
-            "url": "./nova-components/Autocomplete"
+            "type": "composer",
+            "url": "https://nova.laravel.com"
         }
     ],
     "extra": {
