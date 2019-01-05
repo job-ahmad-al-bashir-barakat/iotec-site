@@ -21,12 +21,13 @@ class TeamsTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'name' => 'Alec Thompson',
-                'excerpt' => '<div><strong>Alec Thompson<br></strong><br></div>',
-                'avatar' => 'KIGdMIhqr2A05yGII1dwqqVetUkX2iNmvAcqkh3g.jpeg',
+                'excerpt' => 'Hi',
+                'avatar' => 'vhdavMgKljBtp0ELWBrXOcpLM6dz5cw7O3So2ZqJ.jpeg',
+                'job_id' => 1,
                 'position_id' => 1,
                 'active' => 1,
                 'created_at' => '2018-11-29 12:48:10',
-                'updated_at' => '2018-11-29 12:48:10',
+                'updated_at' => '2019-01-03 22:30:21',
                 'deleted_at' => NULL,
             ),
         ));
