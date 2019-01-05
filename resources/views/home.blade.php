@@ -44,7 +44,6 @@
 <body class="sections-page sidebar-collapse">
 
 <div class="main">
-    {{ dd(config('database.connections.mysql')) }}
     <div class="cd-section" id="home">
         <!--     *********     HEADER 3      *********      -->
         <div class="header-3">
