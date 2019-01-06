@@ -16,10 +16,8 @@ class AppServiceProvider extends ServiceProvider
     {
         if($this->app->environment('production')) {
             // force https
-            dump(\Request::secure());
-            if(\Request::secure()) {
-                \URL::forceScheme('https');
-            }
+            \URL::forceScheme('https');
+
             // fix Specified key was too long; max key length is 767 bytes error
             \Schema::defaultStringLength(191);
         }
@@ -32,10 +30,17 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        if ($this->app->environment() !== 'production') {
+            // register providers
+            $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
+        }
+
         if($this->app->environment('production')) {
-            if(\Request::secure()) {
-                $this->app['request']->server->set('HTTPS', true);
-            }
+
+            dump(\Request::isSecure());
+
+            $this->app['request']->server->set('HTTPS', true);
+
             // set db config
             $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
