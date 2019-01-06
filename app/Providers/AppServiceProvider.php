@@ -20,6 +20,19 @@ class AppServiceProvider extends ServiceProvider
 
             // fix Specified key was too long; max key length is 767 bytes error
             \Schema::defaultStringLength(191);
+        }
+    }
+
+    /**
+     * Register any application services.
+     *
+     * @return void
+     */
+    public function register()
+    {
+        if($this->app->environment('production')) {
+            $this->app['request']->server->set('HTTPS', true);
+
 
             // set db config
             $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
@@ -35,18 +48,6 @@ class AppServiceProvider extends ServiceProvider
             Config::set('database.connections.mysql.database',$database);
 
             dump(config('database.connections.mysql'));
-        }
-    }
-
-    /**
-     * Register any application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        if($this->app->environment('production')) {
-            $this->app['request']->server->set('HTTPS', true);
         }
     }
 }
