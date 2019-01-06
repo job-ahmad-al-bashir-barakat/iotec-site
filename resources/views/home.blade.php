@@ -68,26 +68,26 @@
                                     Home
                                 </a>
                             </li>
-                            {{--<li class="nav-item">
+                            <li class="nav-item">
                                 <a href="#projects" class="nav-link">
                                     Projects
                                 </a>
-                            </li>--}}
+                            </li>
                             <li class="nav-item">
                                 <a href="#teams" class="nav-link">
                                     Teams
                                 </a>
                             </li>
-                            {{--<li class="nav-item">
+                            <li class="nav-item">
                                 <a href="#blogs" class="nav-link">
                                     Blogs
                                 </a>
-                            </li>--}}
-                            {{--<li class="nav-item">
+                            </li>
+                            <li class="nav-item">
                                  <a href="#partners" class="nav-link">
                                      Partners
                                  </a>
-                             </li>--}}
+                            </li>
                             <li class="nav-item">
                                 <a href="#contactus" class="nav-link">
                                     Contact Us
@@ -434,7 +434,7 @@
         </div>
         <!--     *********    END TEAM 5      *********      -->
     </div>
-    {{--<div class="cd-section" id="blogs">
+    <div class="cd-section" id="blogs">
         <!--     *********     BLOGS 1      *********      -->
         <div class="blogs-1" id="blogs-1">
             <div class="container">
@@ -506,8 +506,8 @@
             </div>
         </div>
         <!--     *********    END BLOGS 1      *********      -->
-    </div>--}}
-    {{--<div class="cd-section" id="testimonials">
+    </div>
+    <div class="cd-section" id="testimonials">
         <!--     *********    TESTIMONIALS 2     *********      -->
         <div class="testimonials-2 section-dark">
             <div class="container">
@@ -574,8 +574,8 @@
             </div>
         </div>
         <!--     *********    END TESTIMONIALS 2      *********      -->
-    </div>--}}
-    {{--<div class="cd-section" id="partners">
+    </div>
+    <div class="cd-section" id="partners">
         <!--     *********    TESTIMONIALS 2     *********      -->
         <div class="testimonials-2 section-dark">
             <div class="container">
@@ -611,7 +611,7 @@
             </div>
         </div>
         <!--     *********    END TESTIMONIALS 2      *********      -->
-    </div>--}}
+    </div>
     <div class="cd-section" id="contactus">
         <!--     *********    CONTACT US 1     *********      -->
         <div class="contactus-1 section-image" style="background-image: url('{{ asset('assets/img/examples/city.jpg') }}')">
@@ -782,25 +782,25 @@
                 <span class="cd-label">Home</span>
             </a>
         </li>
-        {{--<li>
+        <li>
             <a href="#projects" data-number="2">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Projects</span>
             </a>
-        </li>--}}
+        </li>
         <li>
             <a href="#teams" data-number="3">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Teams</span>
             </a>
         </li>
-        {{--<li>
+        <li>
             <a href="#blogs" data-number="4">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Blogs</span>
             </a>
-        </li>--}}
-        {{--<li>
+        </li>
+        <li>
             <a href="#testimonials" data-number="5">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Testimonials</span>
@@ -811,7 +811,7 @@
                 <span class="cd-dot"></span>
                 <span class="cd-label">Partners</span>
             </a>
-        </li>--}}
+        </li>
         <li>
             <a href="#contactus" data-number="7">
                 <span class="cd-dot"></span>
