@@ -33,7 +33,6 @@ class AppServiceProvider extends ServiceProvider
         if($this->app->environment('production')) {
             $this->app['request']->server->set('HTTPS', true);
 
-
             // set db config
             $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
@@ -46,8 +45,6 @@ class AppServiceProvider extends ServiceProvider
             Config::set('database.connections.mysql.username',$username);
             Config::set('database.connections.mysql.password',$password);
             Config::set('database.connections.mysql.database',$database);
-
-            dump(config('database.connections.mysql'));
         }
     }
 }
