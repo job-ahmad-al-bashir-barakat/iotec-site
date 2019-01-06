@@ -10,6 +10,9 @@
 
     # ...or just a plain old http request directly from the client
     RewriteCond %{HTTP:X-Forwarded-Proto} =""
+
+    RewriteCond %{HTTP_HOST} !=""
+    RewriteCond %{HTTP_HOST} !^www\. [NC]
     RewriteCond %{HTTPS} !=on
 
     # Redirect to https version
