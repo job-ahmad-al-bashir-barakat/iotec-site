@@ -5,20 +5,15 @@
 
     RewriteEngine On
 
-    # start force www and https
     # If we receive a forwarded http request from a proxy...
     RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+
     # ...or just a plain old http request directly from the client
     RewriteCond %{HTTP:X-Forwarded-Proto} =""
-    # Host value is not empty
-    RewriteCond %{HTTP_HOST} !=""
-    # Host value does not begin with www.
-    RewriteCond %{HTTP_HOST} !^www\. [NC]
-    # the third checks for HTTPS is either on or off
-    RewriteCond %{HTTPS}s ^on(s)|
+    RewriteCond %{HTTPS} !=on
+
     # Redirect to https version
-    RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-    # end force www and https
+    RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
