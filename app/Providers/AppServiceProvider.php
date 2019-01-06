@@ -16,8 +16,9 @@ class AppServiceProvider extends ServiceProvider
     {
         if($this->app->environment('production')) {
             // force https
-            \URL::forceScheme('https');
-
+            if(\Request::secure()) {
+                \URL::forceScheme('https');
+            }
             // fix Specified key was too long; max key length is 767 bytes error
             \Schema::defaultStringLength(191);
         }
@@ -31,8 +32,9 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         if($this->app->environment('production')) {
-            $this->app['request']->server->set('HTTPS', true);
-
+            if(\Request::secure()) {
+                $this->app['request']->server->set('HTTPS', true);
+            }
             // set db config
             $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
