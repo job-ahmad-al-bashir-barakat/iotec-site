@@ -249,7 +249,7 @@
         </div>
         <!--     *********    END HEADER 3      *********      -->
     </div>
-    {{--<div class="cd-section" id="projects">
+    <div class="cd-section" id="projects">
         <!--     *********    PROJECTS 1     *********      -->
         <div class="projects-1" id="projects-1">
             <div class="container">
@@ -360,13 +360,10 @@
             </div>
         </div>
         <!--     *********    END PROJECTS 1      *********      -->
-    </div>--}}
-
-
+    </div>
     <div class="cd-section" id="teams">
-
         <!--     *********    TEAM 5     *********      -->
-        <div class="team-5{{-- section-image--}}" {{-- style="background-image: url('{{ asset('assets/img/bg7.jpg') }}')"--}}>
+        <div class="team-5 section-image" style="background-image: url('{{ asset('assets/img/bg7.jpg') }}')">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto text-center">
