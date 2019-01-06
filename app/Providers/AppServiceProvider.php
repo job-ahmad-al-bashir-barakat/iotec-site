@@ -33,6 +33,8 @@ class AppServiceProvider extends ServiceProvider
             Config::set('database.connections.mysql.username',$username);
             Config::set('database.connections.mysql.password',$password);
             Config::set('database.connections.mysql.database',$database);
+
+            dump(config('database.connections.mysql'));
         }
     }
 
