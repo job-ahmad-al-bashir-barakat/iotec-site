@@ -71,7 +71,7 @@
             "php artisan storage:link"
         ],
         "compile": [
-            "chmod 777 public/storage"
+            "chmod -R 750 public/storage"
         ]
     },
     "config": {
