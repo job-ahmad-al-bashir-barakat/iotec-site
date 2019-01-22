@@ -1,5 +1,6 @@
 <?php
 
+dump(public_path('/storage'));
 return [
 
     /*
