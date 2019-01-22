@@ -1,1 +1,1 @@
-chmod -R 777 app/public/Storage
+chmod -R 777 public/storage
