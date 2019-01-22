@@ -69,9 +69,6 @@
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",
             "php artisan storage:link"
-        ],
-        "compile": [
-            "chmod -R 750 public/storage"
         ]
     },
     "config": {
