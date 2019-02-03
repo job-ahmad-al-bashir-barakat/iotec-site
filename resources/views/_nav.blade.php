@@ -43,6 +43,7 @@
                             <span class="pr-2">Notifications</span>
                             <span class="badge badge-pill badge-primary">4</span>
                         </a>
+
                         {{--<a href="{{ url('settings') }}" class="dropdown-item">
                             <i class="material-icons">settings</i>
                             Settings
