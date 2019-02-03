@@ -4,7 +4,7 @@
 
     @include('_nav')
     @include('_page_header',[
-        'header' => 'Terms And Agreements',
+        'header' => 'Terms And Conditions',
         'image'  => url('assets/img/bg9.jpg'),
     ])
     <div class="main main-raised">

@@ -65,3 +65,118 @@
     }
   }
 }
+
+/*
+ * utilities
+ */
+
+.border-radius {
+  &-1 { border-radius: 1px !important;}
+  &-t-1 {
+    border-top-left-radius: 1px !important;
+    border-top-right-radius: 1px !important;
+  }
+  &-b-1 {
+    border-bottom-left-radius: 1px !important;
+    border-bottom-right-radius: 1px !important;
+  }
+}
+.border-radius {
+  &-2 { border-radius: 2px !important;}
+  &-t-2 {
+    border-top-left-radius: 2px !important;
+    border-top-right-radius: 2px !important;
+  }
+  &-b-2 {
+    border-bottom-left-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+  }
+}
+.border-radius {
+  &-3 { border-radius: 3px !important;}
+  &-t-3 {
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+  }
+  &-b-3 {
+    border-bottom-left-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+  }
+}
+.border-radius {
+  &-4 { border-radius: 4px !important;}
+  &-t-4 {
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+  }
+  &-b-4 {
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+  }
+}
+.border-radius {
+  &-5 { border-radius: 5px !important;}
+  &-t-5 {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+  }
+  &-b-5 {
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+  }
+}
+.border-radius {
+  &-6 { border-radius: 6px !important;}
+  &-t-6 {
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+  }
+  &-b-6 {
+    border-bottom-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+  }
+}
+.border-radius {
+  &-7 { border-radius: 7px !important;}
+  &-t-7 {
+    border-top-left-radius: 7px !important;
+    border-top-right-radius: 7px !important;
+  }
+  &-b-7 {
+    border-bottom-left-radius: 7px !important;
+    border-bottom-right-radius: 7px !important;
+  }
+}
+.border-radius {
+  &-8 { border-radius: 8px !important;}
+  &-t-8 {
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+  }
+  &-b-8 {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+  }
+}
+.border-radius {
+  &-9 { border-radius: 9px !important;}
+  &-t-9 {
+    border-top-left-radius: 9px !important;
+    border-top-right-radius: 9px !important;
+  }
+  &-b-9 {
+    border-bottom-left-radius: 9px !important;
+    border-bottom-right-radius: 9px !important;
+  }
+}
+.border-radius {
+  &-10 { border-radius: 10px !important;}
+  &-t-10 {
+    border-top-left-radius:  10px !important;
+    border-top-right-radius:  10px !important;
+  }
+  &-b-10 {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+  }
+}

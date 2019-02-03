@@ -8,16 +8,6 @@
         "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
         "prod": "npm run production",
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "build-nova-blog": "cd nova-components/NovaBlog && npm run dev",
-        "build-nova-blog-prod": "cd nova-components/NovaBlog && npm run prod",
-        "build-font-awesome": "cd nova-components/FontAwesome && npm run dev",
-        "build-font-awesome-prod": "cd nova-components/FontAwesome && npm run prod",
-        "build-croppie": "cd nova-components/Croppie && npm run dev",
-        "build-croppie-prod": "cd nova-components/Croppie && npm run prod",
-        "build-select2-autocomplete": "cd nova-components/Select2Autocomplete && npm run dev",
-        "build-select2-autocomplete-prod": "cd nova-components/Select2Autocomplete && npm run prod",
-        "build-autocomplete": "cd nova-components/Autocomplete && npm run dev",
-        "build-autocomplete-prod": "cd nova-components/Autocomplete && npm run prod"
     },
     "devDependencies": {
         "axios": "^0.18",

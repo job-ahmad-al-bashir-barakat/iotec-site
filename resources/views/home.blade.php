@@ -518,6 +518,43 @@
             </div>
             <!--     *********    END TESTIMONIALS 2      *********      -->
         </div>
+        <div class="cd-section" id="subscription">
+            <div class="subscribe-line">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="title">Get Tips &amp; Tricks every Week!</h3>
+                            <p class="description">
+                                Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card card-plain card-form-horizontal">
+                                <div class="card-body ">
+                                    <form method="" action="">
+                                        <div class="row">
+                                            <div class="col-lg-8 col-md-6 ">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                  <span class="input-group-text">
+                                    <i class="material-icons">mail</i>
+                                  </span>
+                                                    </div>
+                                                    <input type="email" value="" placeholder="Your Email..." class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 ">
+                                                <button type="button" class="btn btn-primary btn-round btn-block">Subscribe</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="cd-section" id="contactus">
             <!--     *********    CONTACT US 1     *********      -->
             <div class="contactus-1 section-image" style="background-image: url('{{ asset('assets/img/examples/city.jpg') }}')">
@@ -639,8 +676,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('terms-and-agreements') }}">
-                        Terms & Agreements
+                    <a href="{{ url('terms-and-conditions') }}">
+                        Terms & Conditions
                     </a>
                 </li>
             </ul>

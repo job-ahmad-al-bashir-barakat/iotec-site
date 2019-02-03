@@ -1,4 +1,4 @@
-<nav id="cd-vertical-nav" class="d-none d-lg-flex">
+<nav id="cd-vertical-nav">
     <ul>
         <li>
             <a href="#home" data-number="1">
@@ -34,6 +34,12 @@
             <a href="#partners" data-number="6">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Partners</span>
+            </a>
+        </li>
+        <li>
+            <a href="#subscription" data-number="6">
+                <span class="cd-dot"></span>
+                <span class="cd-label">Subscription</span>
             </a>
         </li>
         <li>

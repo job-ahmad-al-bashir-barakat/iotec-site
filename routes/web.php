@@ -18,5 +18,8 @@ Route::group([
     Route::get('team', 'MainControler@teams');
     Route::get('projects', 'MainControler@projects');
     Route::get('about-us', 'MainControler@aboutUs');
-    Route::get('terms-and-agreements', 'MainControler@termsAndAgreements');
+    Route::get('terms-and-conditions', 'MainControler@termsAndAgreements');
+    Route::get('faq', 'MainControler@faq');
+    Route::get('dev-feed','MainControler@devFeed');
+    Route::get('blog','MainControler@blog');
 });

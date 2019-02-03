@@ -44,14 +44,31 @@
                             <span class="badge badge-pill badge-primary">4</span>
                         </a>
 
+                        <a href="{{ url('messages') }}" class="dropdown-item">
+                            <i class="material-icons">chat</i>
+                            <span class="pr-2">Messages</span>
+                            <span class="badge badge-pill badge-primary">4</span>
+                        </a>
+
+                        <a href="{{ url('dev-feed') }}" class="dropdown-item">
+                            <i class="material-icons">rss_feed</i>
+                            Dev Feed
+                        </a>
+
                         {{--<a href="{{ url('settings') }}" class="dropdown-item">
                             <i class="material-icons">settings</i>
                             Settings
                         </a>--}}
 
+                        <a href="{{ url('control') }}" class="dropdown-item">
+                            <i class="material-icons">settings_ethernet</i>
+                            Control
+                        </a>
+
+
                         <a href="{{ url('sign_out') }}" class="dropdown-item">
                             <i class="material-icons">power_settings_new</i>
-                            <span class="pr-2">Sign Out</span>
+                            Sign Out
                         </a>
 
                     </div>
@@ -80,7 +97,7 @@
             <ul class="navbar-nav d-none d-lg-flex">
                 <li class="dropdown nav-item nav-notifications">
                     <b class="badge badge-pill badge-dark nav-notify-counter">+9</b>
-                    <a href="#pablo" class="btn btn-rose btn-raised btn-fab btn-round btn-link nav-notify-icon" data-toggle="dropdown">
+                    <a href="#pablo" class="btn btn-primary btn-raised btn-fab btn-round btn-link nav-notify-icon" data-toggle="dropdown">
                         <i class="material-icons">notifications</i>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right p-0">
@@ -175,11 +192,53 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <h6 class="dropdown-header">User Menu</h6>
-                        <a href="#pablo" class="dropdown-item">Login</a>
-                        <a href="#pablo" class="dropdown-item">Me</a>
-                        <a href="#pablo" class="dropdown-item">Profile</a>
-                        {{--<a href="#pablo" class="dropdown-item">Settings</a>--}}
-                        <a href="#pablo" class="dropdown-item">Sign out</a>
+
+                        <a href="{{ url('login') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">exit_to_app</i>
+                            Login
+                        </a>
+
+                        <a href="{{ url('me') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">face</i>
+                            Me
+                        </a>
+
+                        <a href="{{ url('profile') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">account_circle</i>
+                            Profile
+                        </a>
+
+                        <a href="{{ url('notifications') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">notifications</i>
+                            <span class="pr-2">Notifications</span>
+                            <span class="badge badge-pill badge-primary">4</span>
+                        </a>
+
+                        <a href="{{ url('messages') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">chat</i>
+                            <span class="pr-2">Messages</span>
+                            <span class="badge badge-pill badge-primary">4</span>
+                        </a>
+
+                        <a href="{{ url('dev-feed') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">rss_feed</i>
+                            Dev Feed
+                        </a>
+
+                        {{--<a href="{{ url('settings') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">settings</i>
+                            Settings
+                        </a>--}}
+
+                        <a href="{{ url('control') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">settings_ethernet</i>
+                            Control
+                        </a>
+
+                        <a href="{{ url('sign_out') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">power_settings_new</i>
+                            Sign Out
+                        </a>
                     </div>
                 </li>
             </ul>

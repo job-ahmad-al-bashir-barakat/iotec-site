@@ -24,7 +24,18 @@ class MainControler extends Controller
     }
 
     function termsAndAgreements() {
-        return view('terms_and_agreements');
+        return view('terms_and_conditions');
     }
 
+    function faq() {
+        return view('faq');
+    }
+
+    function devFeed() {
+        return view('dev_feed');
+    }
+
+    function blog() {
+        return view('blog');
+    }
 }

@@ -23,8 +23,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('terms-and-agreements') }}">
-                        Terms & Agreements
+                    <a href="{{ url('terms-and-conditions') }}">
+                        Terms & Conditions
                     </a>
                 </li>
             </ul>
