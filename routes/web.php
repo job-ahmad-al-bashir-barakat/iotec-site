@@ -14,5 +14,9 @@
 Route::group([
     'namespace' => '\App\Http\Controllers',
 ],function () {
-    Route::get('/', 'HomeControler@home');
+    Route::get('/', 'MainControler@home');
+    Route::get('team', 'MainControler@teams');
+    Route::get('projects', 'MainControler@projects');
+    Route::get('about-us', 'MainControler@aboutUs');
+    Route::get('terms-and-agreements', 'MainControler@termsAndAgreements');
 });

@@ -1,4 +1,9 @@
 var APP_IOTec = {
+
+    /*
+     * -- owlcarousel2 --
+     * https://owlcarousel2.github.io/OwlCarousel2/
+     */
     owlCarousel: function () {
 
         $('.owl-carousel').owlCarousel({
@@ -8,6 +13,9 @@ var APP_IOTec = {
             margin: 10,
             nav: false,
             dots: false,
+            autoplay:true,
+            autoplayTimeout:3000,
+            autoplayHoverPause:true,
             responsive: {
                 0: {
                     items: 1
@@ -29,10 +37,24 @@ var APP_IOTec = {
         })
     },
 
+    /*
+     * -- nicescroll --
+     * https://nicescroll.areaaperta.com/
+     */
+    nicescroll: function() {
+
+        $('.nicescroll').niceScroll();
+
+        $('body').on('mouseenter','.nicescroll', function () {
+            $(this).getNiceScroll().resize();
+        });
+    },
+
     initApp: function () {
         APP_IOTec.owlCarousel();
         APP_IOTec.scrollToAnchor();
-    }
+        APP_IOTec.nicescroll();
+    },
 }
 
 $(function () {

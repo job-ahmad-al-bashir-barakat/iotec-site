@@ -1,0 +1,56 @@
+/*
+ * _example-pages-extend.scss
+ */
+
+.posts .nav.nav-pills {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.posts .card-form-horizontal form .form-group {
+  width: 100%;
+  margin: 0;
+}
+
+.posts .card-form-horizontal form .form-group .form-control {
+  width: 100%;
+}
+
+/*
+ * _navbar.scss
+ */
+
+.navbar .navbar-nav .nav-notifications .dropdown-menu {
+  min-width: 300px;
+}
+
+.navbar .navbar-nav .nav-notifications .dropdown-menu .notifications {
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.navbar .navbar-nav .nav-notifications .dropdown-menu .dropdown-item {
+  padding: 10px;
+  white-space: normal;
+}
+
+.navbar .navbar-nav .nav-notify-counter {
+  position: absolute;
+  padding: 5px 8px;
+  z-index: 1;
+  top: 0;
+}
+
+/*
+ * _responsive.scss
+ */
+
+@media all and (max-width: 991px) {
+  .navbar .dropdown.show .dropdown-menu,
+  .navbar .dropdown .dropdown-menu {
+    overflow-y: hidden;
+  }
+}
+

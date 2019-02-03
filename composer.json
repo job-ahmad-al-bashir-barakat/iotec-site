@@ -17,7 +17,8 @@
         "laravel/nova": "~1.0",
         "laravel/tinker": "^1.0",
         "naxon/nova-field-sortable": "^1.0",
-        "orangehill/iseed": "^2.6"
+        "orangehill/iseed": "^2.6",
+        "spatie/laravel-blade-x": "^2.1"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

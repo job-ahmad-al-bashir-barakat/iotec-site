@@ -5,7 +5,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2019-01-06 22:18:38.
+    * Generated on 2019-02-02 09:19:36.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -32,6 +32,8 @@ namespace PHPSTORM_META {
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Spatie\BladeX\BladeX' => \Spatie\BladeX\BladeX::class,
+        'Spatie\BladeX\ContextStack' => \Spatie\BladeX\ContextStack::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
         'auth.driver' => \Illuminate\Auth\SessionGuard::class,
         'auth.password' => \Illuminate\Auth\Passwords\PasswordBrokerManager::class,
@@ -173,6 +175,8 @@ namespace PHPSTORM_META {
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Spatie\BladeX\BladeX' => \Spatie\BladeX\BladeX::class,
+        'Spatie\BladeX\ContextStack' => \Spatie\BladeX\ContextStack::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
         'auth.driver' => \Illuminate\Auth\SessionGuard::class,
         'auth.password' => \Illuminate\Auth\Passwords\PasswordBrokerManager::class,
@@ -314,6 +318,8 @@ namespace PHPSTORM_META {
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Spatie\BladeX\BladeX' => \Spatie\BladeX\BladeX::class,
+        'Spatie\BladeX\ContextStack' => \Spatie\BladeX\ContextStack::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
         'auth.driver' => \Illuminate\Auth\SessionGuard::class,
         'auth.password' => \Illuminate\Auth\Passwords\PasswordBrokerManager::class,
@@ -455,6 +461,8 @@ namespace PHPSTORM_META {
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Spatie\BladeX\BladeX' => \Spatie\BladeX\BladeX::class,
+        'Spatie\BladeX\ContextStack' => \Spatie\BladeX\ContextStack::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
         'auth.driver' => \Illuminate\Auth\SessionGuard::class,
         'auth.password' => \Illuminate\Auth\Passwords\PasswordBrokerManager::class,
@@ -596,6 +604,8 @@ namespace PHPSTORM_META {
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Spatie\BladeX\BladeX' => \Spatie\BladeX\BladeX::class,
+        'Spatie\BladeX\ContextStack' => \Spatie\BladeX\ContextStack::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
         'auth.driver' => \Illuminate\Auth\SessionGuard::class,
         'auth.password' => \Illuminate\Auth\Passwords\PasswordBrokerManager::class,
@@ -737,6 +747,8 @@ namespace PHPSTORM_META {
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Spatie\BladeX\BladeX' => \Spatie\BladeX\BladeX::class,
+        'Spatie\BladeX\ContextStack' => \Spatie\BladeX\ContextStack::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
         'auth.driver' => \Illuminate\Auth\SessionGuard::class,
         'auth.password' => \Illuminate\Auth\Passwords\PasswordBrokerManager::class,
@@ -878,6 +890,8 @@ namespace PHPSTORM_META {
         'NunoMaduro\Collision\Contracts\Adapters\Phpunit\Listener' => \NunoMaduro\Collision\Adapters\Phpunit\Listener::class,
         'NunoMaduro\Collision\Contracts\Provider' => \NunoMaduro\Collision\Provider::class,
         'Psr\Http\Message\ResponseInterface' => \Zend\Diactoros\Response::class,
+        'Spatie\BladeX\BladeX' => \Spatie\BladeX\BladeX::class,
+        'Spatie\BladeX\ContextStack' => \Spatie\BladeX\ContextStack::class,
         'auth' => \Illuminate\Auth\AuthManager::class,
         'auth.driver' => \Illuminate\Auth\SessionGuard::class,
         'auth.password' => \Illuminate\Auth\Passwords\PasswordBrokerManager::class,
