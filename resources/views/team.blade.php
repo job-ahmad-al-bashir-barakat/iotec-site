@@ -42,7 +42,7 @@
                         <div class="card card-profile card-plain">
                             <div class="card-avatar">
                                 <a href="#pablo">
-                                    <img class="img" src="../assets/img/faces/kendall.jpg">
+                                    <img class="img" src="../assets/img/faces/marc.jpg">
                                 </a>
                             </div>
                             <div class="card-body">
@@ -149,7 +149,7 @@
                         <div class="card card-profile card-plain">
                             <div class="card-avatar">
                                 <a href="#pablo">
-                                    <img class="img" src="../assets/img/faces/avatar.jpg">
+                                    <img class="img" src="../assets/img/faces/marc.jpg">
                                 </a>
                             </div>
                             <div class="card-body">

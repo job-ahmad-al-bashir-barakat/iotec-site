@@ -62,10 +62,22 @@ var APP_IOTec = {
         }
     },
 
+    /*
+     * -- bootstrap --
+     * https://getbootstrap.com/docs/4.0/components/dropdowns/
+     */
+    dropdownMenu: function() {
+
+        $('.dropdown-menu-prevent-close').click(function(e) {
+            e.stopPropagation();
+        });
+    },
+
     initApp: function () {
         APP_IOTec.owlCarousel();
         APP_IOTec.scrollToAnchor();
         APP_IOTec.nicescroll();
+        APP_IOTec.dropdownMenu();
     },
 }
 

@@ -15,13 +15,18 @@
         <div class="collapse navbar-collapse" id="navigation-example4">
             <ul class="navbar-nav navbar-center ml-auto mr-auto">
                 <li class="d-lg-none m-auto">
-                    <img src="./assets/img/faces/avatar.jpg" alt="Circle Image" class="rounded-circle" style="width: 150px; padding: 15px;">
+                    <img src="./assets/img/faces/marc.jpg" alt="Circle Image" class="rounded-circle" style="width: 150px; padding: 15px;">
                 </li>
                 <li class="dropdown nav-item d-lg-none">
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                         User Menu
                     </a>
                     <div class="dropdown-menu dropdown-with-icons">
+
+                        <a href="{{ url('/') }}" class="dropdown-item">
+                            <i class="material-icons">language</i>
+                            English
+                        </a>
 
                         <a href="{{ url('login') }}" class="dropdown-item">
                             <i class="material-icons">exit_to_app</i>
@@ -95,20 +100,23 @@
                 </li>
             </ul>
             <ul class="navbar-nav d-none d-lg-flex">
+
+                {{ $slot ?? '' }}
                 <li class="dropdown nav-item nav-notifications">
                     <b class="badge badge-pill badge-dark nav-notify-counter">+9</b>
-                    <a href="#pablo" class="btn btn-primary btn-raised btn-fab btn-round btn-link nav-notify-icon" data-toggle="dropdown">
+                    <a href="#pablo" class="nav-link" data-toggle="dropdown">
                         <i class="material-icons">notifications</i>
+                        <b class="caret"></b>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right p-0">
-                        <a class="btn btn-primary btn-link float-right">Show All <i class="material-icons"> notifications_active</i></a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-prevent-close p-0">
+                        <a class="btn btn-primary btn-link float-right">Show All <i class="material-icons">notifications_active</i></a>
                         <h6 class="dropdown-header">Notifications</h6>
                         <div class="dropdown-divider mb-0"></div>
 
                         <div class="notifications nicescroll">
                             <a href="#pablo" class="dropdown-item m-2">
                                 <div class="media">
-                                    <img src="./assets/img/faces/avatar.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
+                                    <img src="./assets/img/faces/marc.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
                                     <div class="media-body">
                                         <b>Jone do</b>
                                         <span>Lorem ipsum dolor sit amet, dsadsadsa</span>
@@ -118,7 +126,7 @@
                             <div class="dropdown-divider m-0"></div>
                             <a href="#pablo" class="dropdown-item m-2">
                                 <div class="media">
-                                    <img src="./assets/img/faces/avatar.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
+                                    <img src="./assets/img/faces/marc.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
                                     <div class="media-body">
                                         <b>Jone do</b>
                                         <span>Lorem ipsum dolor sit amet, dsadsadsa</span>
@@ -128,7 +136,7 @@
                             <div class="dropdown-divider m-0"></div>
                             <a href="#pablo" class="dropdown-item m-2">
                                 <div class="media">
-                                    <img src="./assets/img/faces/avatar.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
+                                    <img src="./assets/img/faces/marc.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
                                     <div class="media-body">
                                         <b>Jone do</b>
                                         <span>Lorem ipsum dolor sit amet, dsadsadsa</span>
@@ -138,7 +146,7 @@
                             <div class="dropdown-divider m-0"></div>
                             <a href="#pablo" class="dropdown-item m-2">
                                 <div class="media">
-                                    <img src="./assets/img/faces/avatar.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
+                                    <img src="./assets/img/faces/marc.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
                                     <div class="media-body">
                                         <b>Jone do</b>
                                         <span>Lorem ipsum dolor sit amet, dsadsadsa</span>
@@ -148,7 +156,7 @@
                             <div class="dropdown-divider m-0"></div>
                             <a href="#pablo" class="dropdown-item m-2">
                                 <div class="media">
-                                    <img src="./assets/img/faces/avatar.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
+                                    <img src="./assets/img/faces/marc.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
                                     <div class="media-body">
                                         <b>Jone do</b>
                                         <span>Lorem ipsum dolor sit amet, dsadsadsa</span>
@@ -158,7 +166,7 @@
                             <div class="dropdown-divider m-0"></div>
                             <a href="#pablo" class="dropdown-item m-2">
                                 <div class="media">
-                                    <img src="./assets/img/faces/avatar.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
+                                    <img src="./assets/img/faces/marc.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
                                     <div class="media-body">
                                         <b>Jone do</b>
                                         <span>Lorem ipsum dolor sit amet, dsadsadsa</span>
@@ -168,7 +176,7 @@
                             <div class="dropdown-divider m-0"></div>
                             <a href="#pablo" class="dropdown-item m-2">
                                 <div class="media">
-                                    <img src="./assets/img/faces/avatar.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
+                                    <img src="./assets/img/faces/marc.jpg" class="mr-3 rounded-circle img-fluid" alt="Circle Image" style="width: 40px;">
                                     <div class="media-body">
                                         <b>Jone do</b>
                                         <span>Lorem ipsum dolor sit amet, dsadsadsa</span>
@@ -187,11 +195,16 @@
                 <li class="dropdown nav-item">
                     <a href="#pablo" class="profile-photo dropdown-toggle nav-link" data-toggle="dropdown">
                         <div class="profile-photo-small">
-                            <img src="./assets/img/faces/avatar.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+                            <img src="./assets/img/faces/marc.jpg" alt="Circle Image" class="rounded-circle img-fluid">
                         </div>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right">
                         <h6 class="dropdown-header">User Menu</h6>
+
+                        <a href="{{ url('/') }}" class="dropdown-item">
+                            <i class="material-icons pr-2">language</i>
+                            English
+                        </a>
 
                         <a href="{{ url('login') }}" class="dropdown-item">
                             <i class="material-icons pr-2">exit_to_app</i>
@@ -241,6 +254,7 @@
                         </a>
                     </div>
                 </li>
+
             </ul>
         </div>
     </div>

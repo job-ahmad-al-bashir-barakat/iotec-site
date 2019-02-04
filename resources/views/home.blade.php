@@ -663,6 +663,12 @@
                         <i class="fa fa-github"></i>
                     </a>
                 </li>
+                {{--todo: rss feed--}}
+                {{--<li>
+                    <a href="#feed" class="btn btn-just-icon btn-link">
+                        <i class="fa fa-rss"></i>
+                    </a>
+                </li>--}}
             </ul>
             <ul>
                 <li>
