@@ -1,4 +1,4 @@
-@extends('master')
+@extends('layout.master')
 
 @section('styles')
     <link href="{{ asset('assets/js/plugins/owl-carousel/owl.carousel.css') }}" rel="stylesheet" />
@@ -15,7 +15,7 @@
         <div class="cd-section" id="home">
             <!--     *********     HEADER 1      *********      -->
             <div class="header-1">
-                @include('_nav')
+                @include('layout._nav')
                 <!-- Carousel Card -->
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -687,10 +687,10 @@
                     </a>
                 </li>
             </ul>
-            @include('_copyright',['made' => true])
+            @include('layout._copyright',['made' => true])
         </div>
     </footer>
-    @include('_vertical_nav')
+    @include('layout._vertical_nav')
 
 @endsection
 

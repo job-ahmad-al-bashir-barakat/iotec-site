@@ -29,6 +29,6 @@
                 </li>
             </ul>
         </nav>
-        @include('_copyright',['class' => 'float-right'])
+        @include('layout._copyright',['class' => 'float-right'])
     </div>
 </footer>

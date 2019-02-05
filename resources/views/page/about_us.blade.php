@@ -1,4 +1,4 @@
-@extends('master')
+@extends('layout.master')
 
 @section('styles')
     <link href="{{ asset('assets/js/plugins/owl-carousel/owl.carousel.css') }}" rel="stylesheet" />
@@ -12,8 +12,8 @@
 @section('content')
 
     <div class="about-us">
-        @include('_nav')
-        @include('_page_header',[
+        @include('layout._nav')
+        @include('layout._page_header',[
             'header' => 'About Us',
             'image'  => url('assets/img/bg9.jpg'),
         ])
@@ -174,7 +174,7 @@
                 </div>
             </div>
         </div>
-        @include('_page_footer')
+        @include('layout._page_footer')
     </div>
 
 @endsection

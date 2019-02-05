@@ -1,10 +1,10 @@
-@extends('master')
+@extends('layout.master')
 
 @section('content')
 
     <div class="posts">
-        @include('_nav')
-        @include('_page_header',[
+        @include('layout._nav')
+        @include('layout._page_header',[
             'header' => 'Blog',
             'image'  => url('assets/img/examples/card-project4.jpg'),
         ])
@@ -135,7 +135,7 @@
 
         </div>
 
-        @include('_page_footer')
+        @include('layout._page_footer')
     </div>
 
 @endsection

@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    @include('_meta')
-    @include('_style')
+    @include('layout._meta')
+    @include('layout._style')
 </head>
 
 <body class="sidebar-collapse">
 
 @yield('content')
 
-@include('_script')
+@include('layout._script')
 
 </body>
 
