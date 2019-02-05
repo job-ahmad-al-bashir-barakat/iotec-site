@@ -7,27 +7,51 @@ var APP_IOTec = {
     owlCarousel: function () {
 
         if($.fn.owlCarousel) {
-            $('.owl-carousel').owlCarousel({
-                // rtl:true,
-                items: 1,
-                loop: true,
-                margin: 10,
-                nav: false,
-                dots: false,
-                autoplay:true,
-                autoplayTimeout:3000,
-                autoplayHoverPause:true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 5
-                    }
-                }
+            $('.owl-carousel').each(function () {
+
+                var responsive = $(this).data('responsive') != undefined
+                    ? $(this).data('responsive')
+                    : true;
+                var nav  = $(this).data('nav') || false,
+                    dots = $(this).data('dots') || false,
+                    loop = $(this).data('loop') != undefined
+                        ? $(this).data('loop')
+                        : true,
+                    autoplay = $(this).data('autoplay') != undefined
+                        ? $(this).data('autoplay')
+                        : true,
+                    autoplayTimeout = $(this).data('autoplay-timeout') || 3000;
+
+                console.log(autoplayTimeout);
+                var options = {
+                    // rtl:true,
+                    items: 1,
+                    loop: loop,
+                    margin: 10,
+                    nav: nav,
+                    navContainerClass: "owl-nav text-center",
+                    navText: ["<i class='material-icons'>navigate_before</i>","<i class='material-icons'>navigate_next</i>"],
+                    dots: dots,
+                    center:true,
+                    autoplay: autoplay,
+                    autoplayTimeout: autoplayTimeout,
+                    autoplayHoverPause:true,
+                };
+
+                if(responsive)
+                    options.responsive = {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 3
+                        },
+                        1000: {
+                            items: 5
+                        }
+                    };
+
+                $(this).owlCarousel(options);
             })
         }
     },
