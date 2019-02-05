@@ -21,7 +21,7 @@
                     <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                         User Menu
                     </a>
-                    <div class="dropdown-menu dropdown-with-icons">
+                    <div class="dropdown-menu dropdown-with-icons nicescroll">
 
                         <a href="{{ url('/') }}" class="dropdown-item">
                             <i class="material-icons">language</i>
@@ -53,6 +53,11 @@
                             <i class="material-icons">chat</i>
                             <span class="pr-2">Messages</span>
                             <span class="badge badge-pill badge-primary">4</span>
+                        </a>
+
+                        <a href="{{ url('bookmark') }}" class="dropdown-item">
+                            <i class="material-icons">bookmark</i>
+                            bookmark
                         </a>
 
                         <a href="{{ url('dev-feed') }}" class="dropdown-item">
@@ -231,6 +236,11 @@
                             <i class="material-icons pr-2">chat</i>
                             <span class="pr-2">Messages</span>
                             <span class="badge badge-pill badge-primary">4</span>
+                        </a>
+
+                        <a href="{{ url('bookmark') }}" class="dropdown-item">
+                            <i class="material-icons">bookmark</i>
+                            bookmark
                         </a>
 
                         <a href="{{ url('dev-feed') }}" class="dropdown-item">
