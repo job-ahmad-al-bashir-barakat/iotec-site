@@ -57,6 +57,7 @@
         </li>
     @endcomponent
 
+
     @include('layout._page_header',[
         'header' => 'Dev Feed',
         'image'  => url('assets/img/examples/card-project4.jpg'),
