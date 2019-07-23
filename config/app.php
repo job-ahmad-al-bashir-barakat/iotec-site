@@ -176,7 +176,6 @@ return [
         /*
          * Global...
          */
-        App\Providers\NovaServiceProvider::class,
     ],
 
     /*
