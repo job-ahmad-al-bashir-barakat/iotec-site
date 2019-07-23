@@ -12,12 +12,8 @@
         "doctrine/dbal": "^2.9",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.3",
-        "inspheric/nova-url-field": "^1.1",
-        "koss-shtukert/laravel-nova-select2-auto-complete": "^1.2",
         "laravel/framework": "5.7.*",
-        "laravel/nova": "~1.0",
         "laravel/tinker": "^1.0",
-        "naxon/nova-field-sortable": "^1.0",
         "orangehill/iseed": "^2.6",
         "spatie/laravel-blade-x": "^2.1"
     },
@@ -44,12 +40,6 @@
             "Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
-        }
-    ],
     "extra": {
         "laravel": {
             "dont-discover": []

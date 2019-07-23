@@ -7,14 +7,9 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\EloquentSortable\Sortable;
 use Spatie\EloquentSortable\SortableTrait;
 
-class Table extends Model implements Sortable
+class Table extends Model
 {
-    use SoftDeletes, SortableTrait;
-
-    public $sortable = [
-        'order_column_name'  => 'order',
-        'sort_when_creating' => true,
-    ];
+    use SoftDeletes;
 
     protected $fillable = ['name', 'resource_class', 'model_class', 'order'];
 }
