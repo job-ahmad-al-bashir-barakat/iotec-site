@@ -323,8 +323,8 @@
                                 <div class="row">
                                     <div class="col-md-5">
                                         <div class="card-header card-header-image">
-                                            <a href="#pablo">
-                                                <img class="img" src="{{  asset('assets/img/faces/card-profile1-square.jpg') }}" />
+                                            <a href="#safibeik">
+                                                <img class="img" src="{{  asset('assets/img/faces/card-profile1-safi.jpg') }}" />
                                             </a>
                                         </div>
                                     </div>
@@ -334,12 +334,12 @@
                                             <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Founder</h6>
                                             <p class="card-description">
                                                 - Professional Engineering of information technology networks on multiple  levels (Connectivity, Quality of service, Security, Agility and Administration)
-                                                - Creative development of software solutions and mobile applications under ASP.Net Core Platform & Android.
+                                               <br/> - Creative development of software solutions and mobile applications under ASP.Net Core Platform & Android.
                                             </p>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="https://www.linkedin.com/in/safibeik" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-linkedin"></i></a>
-                                            <a href="https://github.com/SafiBeik" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.linkedin.com/in/safibeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/SafiBeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
