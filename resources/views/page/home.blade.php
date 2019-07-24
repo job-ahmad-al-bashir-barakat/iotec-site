@@ -12,8 +12,8 @@
 @section('content')
 
     <div class="main">
+
         <div class="cd-section" id="home">
-            <!--     *********     HEADER 1      *********      -->
             <div class="header-1">
                 @include('layout._nav')
                 <!-- Carousel Card -->
@@ -166,10 +166,9 @@
                 </div>
                 <!-- End Carousel Card -->
             </div>
-            <!--     *********    END HEADER 1      *********      -->
         </div>
+
         <div class="cd-section" id="projects">
-            <!--     *********    PROJECTS 1     *********      -->
             <div class="projects-1" id="projects-1">
                 <div class="container">
                     <div class="row">
@@ -278,10 +277,9 @@
                     </div>
                 </div>
             </div>
-            <!--     *********    END PROJECTS 1      *********      -->
         </div>
+
         <div class="cd-section" id="teams">
-            <!--     *********    TEAM 5     *********      -->
             <div class="team-5 section-image" style="background-image: url('{{ asset('assets/img/bg7.jpg') }}')">
                 <div class="container">
                     <div class="row">
@@ -348,10 +346,9 @@
                     </div>
                 </div>
             </div>
-            <!--     *********    END TEAM 5      *********      -->
         </div>
+
         <div class="cd-section" id="blogs">
-            <!--     *********     BLOGS 1      *********      -->
             <div class="blogs-1" id="blogs-1">
                 <div class="container">
                     <div class="row">
@@ -416,79 +413,10 @@
                     </div>
                 </div>
             </div>
-            <!--     *********    END BLOGS 1      *********      -->
         </div>
-        <div class="cd-section" id="testimonials">
-            <!--     *********    TESTIMONIALS 2     *********      -->
-            <div class="testimonials-2 section-dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div id="carouselExampleIndicatorss" class="carousel slide" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="card card-testimonial card-plain">
-                                            <div class="card-avatar">
-                                                <a href="#pablo">
-                                                    <img class="img" src="{{ asset('assets/img/faces/kendall.jpg') }}">
-                                                </a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-description">"I speak yell scream directly at the old guard on behalf of the future. I gotta say at that time I’d like to meet Kanye I speak yell scream directly at the old guard on behalf of the future. My brother Chance!!!
-                                                    <br>Thank you for letting me work on this masterpiece. One of my favorite people."
-                                                </h5>
-                                                <h4 class="card-title">Kendall Thompson</h4>
-                                                <h6 class="card-category text-muted">CEO @ Marketing Digital Ltd.</h6>
-                                                <div class="footer">
-                                                    <i class="material-icons text-warning">star</i>
-                                                    <i class="material-icons text-warning">star</i>
-                                                    <i class="material-icons text-warning">star</i>
-                                                    <i class="material-icons text-warning">star</i>
-                                                    <i class="material-icons text-warning">star</i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="card card-testimonial card-plain">
-                                            <div class="card-avatar">
-                                                <a href="#pablo">
-                                                    <img class="img" src="{{ asset('assets/img/faces/christian.jpg') }}">
-                                                </a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-description">"Thank you Anna for the invite thank you to the whole Vogue team Called I Miss the Old Kanye At the God's last game Chop up the soul Kanye. I promise I will never let the people down. I want a better life for all!!! Pablo Pablo Pablo Pablo! Thank you Anna for the invite thank you to the whole Vogue team."
-                                                </h5>
-                                                <h4 class="card-title">Christian Louboutin</h4>
-                                                <h6 class="card-category text-muted">Designer @ Louboutin &amp; Co.</h6>
-                                                <div class="footer">
-                                                    <i class="material-icons text-warning">star</i>
-                                                    <i class="material-icons text-warning">star</i>
-                                                    <i class="material-icons text-warning">star</i>
-                                                    <i class="material-icons text-warning">star</i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicatorss" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicatorss" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--     *********    END TESTIMONIALS 2      *********      -->
-        </div>
+
         <div class="cd-section" id="partners">
-            <!--     *********    TESTIMONIALS 2     *********      -->
-            <div class="testimonials-2 section-dark">
+            <div class="clients-1 section-dark">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -496,67 +424,14 @@
                                 <div class="item">
                                     <img src="{{ asset('assets/img/partners/1.png') }}" alt=""/>
                                 </div>
-                                <div class="item">
-                                    <img src="{{ asset('assets/img/partners/2.png') }}" alt=""/>
-                                </div>
-                                <div class="item">
-                                    <img src="{{ asset('assets/img/partners/3.png') }}" alt=""/>
-                                </div>
-                                <div class="item">
-                                    <img src="{{ asset('assets/img/partners/4.png') }}" alt=""/>
-                                </div>
-                                <div class="item">
-                                    <img src="{{ asset('assets/img/partners/5.png') }}" alt=""/>
-                                </div>
-                                <div class="item">
-                                    <img src="{{ asset('assets/img/partners/6.png') }}" alt=""/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--     *********    END TESTIMONIALS 2      *********      -->
-        </div>
-        <div class="cd-section" id="subscription">
-            <div class="subscribe-line">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3 class="title">Get Tips &amp; Tricks every Week!</h3>
-                            <p class="description">
-                                Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card card-plain card-form-horizontal">
-                                <div class="card-body ">
-                                    <form method="" action="">
-                                        <div class="row">
-                                            <div class="col-lg-8 col-md-6 ">
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                  <span class="input-group-text">
-                                    <i class="material-icons">mail</i>
-                                  </span>
-                                                    </div>
-                                                    <input type="email" value="" placeholder="Your Email..." class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 ">
-                                                <button type="button" class="btn btn-primary btn-round btn-block">Subscribe</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="cd-section" id="contactus">
-            <!--     *********    CONTACT US 1     *********      -->
             <div class="contactus-1 section-image" style="background-image: url('{{ asset('assets/img/examples/city.jpg') }}')">
                 <div class="container">
                     <div class="row">
@@ -639,37 +514,14 @@
                     </div>
                 </div>
             </div>
-            <!--     *********    END CONTACT US 1      *********      -->
         </div>
     </div>
+
     <footer class="footer footer-white footer-big">
         <div class="container">
             <a class="navbar-brand m-0" href="{{ url('/') }}">
                 <img src="{{ asset('assets/img/logo/logo-white.png') }}" style="width:70px; opacity: 0.1;">
             </a>
-            <ul class="social-buttons">
-                <li>
-                    <a href="#twitter" class="btn btn-just-icon btn-link">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#facebook" class="btn btn-just-icon btn-link">
-                        <i class="fa fa-facebook-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#github" class="btn btn-just-icon btn-link">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </li>
-                {{--todo: rss feed--}}
-                {{--<li>
-                    <a href="#feed" class="btn btn-just-icon btn-link">
-                        <i class="fa fa-rss"></i>
-                    </a>
-                </li>--}}
-            </ul>
             <ul>
                 <li>
                     <a href="{{ url('about-us') }}">

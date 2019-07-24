@@ -451,3 +451,15 @@
   background-image: none !important;
 }
 
+/*
+ * _sections
+ */
+[class*="features-"],
+[class*="team-"],
+[class*="projects-"],
+[class*="pricing-"],
+[class*="testimonials-"],
+[class*="contactus-"],
+[class*="clients-"]{
+  padding: 80px 0;
+}

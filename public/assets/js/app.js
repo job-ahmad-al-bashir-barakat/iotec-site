@@ -16,13 +16,12 @@ var APP_IOTec = {
                     dots = $(this).data('dots') || false,
                     loop = $(this).data('loop') != undefined
                         ? $(this).data('loop')
-                        : true,
+                        : false,
                     autoplay = $(this).data('autoplay') != undefined
                         ? $(this).data('autoplay')
                         : true,
                     autoplayTimeout = $(this).data('autoplay-timeout') || 3000;
 
-                console.log(autoplayTimeout);
                 var options = {
                     // rtl:true,
                     items: 1,

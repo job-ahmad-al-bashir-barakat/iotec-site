@@ -25,21 +25,9 @@
             </a>
         </li>
         <li>
-            <a href="#testimonials" data-number="5">
-                <span class="cd-dot"></span>
-                <span class="cd-label">Testimonials</span>
-            </a>
-        </li>
-        <li>
             <a href="#partners" data-number="6">
                 <span class="cd-dot"></span>
                 <span class="cd-label">Partners</span>
-            </a>
-        </li>
-        <li>
-            <a href="#subscription" data-number="6">
-                <span class="cd-dot"></span>
-                <span class="cd-label">Subscription</span>
             </a>
         </li>
         <li>

@@ -12,14 +12,6 @@ class MainControler extends Controller
         return view('page.home');
     }
 
-    function teams() {
-        return view('page.team');
-    }
-
-    function projects() {
-        return view('page.projects');
-    }
-
     function aboutUs() {
         return view('page.about_us');
     }
