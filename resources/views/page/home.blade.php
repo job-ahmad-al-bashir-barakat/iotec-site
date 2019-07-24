@@ -296,7 +296,7 @@
                                 <div class="row">
                                     <div class="col-md-5">
                                         <div class="card-header card-header-image">
-                                            <a href="#pablo">
+                                            <a href="#ABBarakat">
                                                 <img class="img" src="{{ asset('assets/img/faces/card-profile1-ahmad.jpg') }}" />
                                             </a>
                                         </div>
