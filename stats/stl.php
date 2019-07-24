@@ -74,9 +74,9 @@ If you wish to, you may lighten the script by removing comments and everything b
     $no_cycle = "0" ; # Set to "0" to work during the stated times on every day they occur. Set to "1" to run once only. $no_cycle= "1" activates session mode
 
     # Directory path. Where is the script relative to the page that calls it? Do not include the script title (stl.php) here.
-    $dpath = "stats/";
+    $dpath = "../stats/";
     # Stats Storage Directory path. Where should stats data be put relative to the page that calls the script?
-    $spath = "data/";
+    $spath = "../data/";
 
     # Decide the counters to display. Switch  all to "0" to run silently. Switch any to "1" to enable it.
     $show_se_cy_counter = "0" ; # Show session/cycle counter (current cycle's count)
