@@ -286,8 +286,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto text-center">
-                            <h2 class="title">The Executive Team</h2>
-                            <h5 class="description">This is the paragraph where you can write more details about your team. Keep you user engaged by providing meaningful information.</h5>
+                            <h2 class="title">Our Team</h2>
+                            <h5 class="description">Talent wins games, but teamwork and intelligence win championships</h5>
                         </div>
                     </div>
                     <div class="row">
@@ -306,13 +306,11 @@
                                             <h4 class="card-title">Ahmad Al Bashir Barakat</h4>
                                             <h6 class="card-category text-muted">Full Stack Developer - Founder</h6>
                                             <p class="card-description">
-                                                Don't be scared of the truth because we need to restart the human foundation in truth...
-                                            </p>
+                                                Software Engineer, dedicated to Full Stack Web Development.                                             </p>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="#pablo" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-twitter"></i></a>
-                                            <a href="#pablo" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#pablo" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.linkedin.com/in/ahmad-al-bashir-barakat/" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/AhmedAlbasheerBarakat/" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
