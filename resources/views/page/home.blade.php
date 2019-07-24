@@ -331,15 +331,15 @@
                                     <div class="col-md-7">
                                         <div class="card-body">
                                             <h4 class="card-title">Safi Beik Karbouj</h4>
-                                            <h6 class="card-category text-muted">ASP.Net & IT Network - Founder</h6>
+                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Founder</h6>
                                             <p class="card-description">
-                                                Don't be scared of the truth because we need to restart the human foundation in truth...
+                                                - Professional Engineering of information technology networks on multiple  levels (Connectivity, Quality of service, Security, Agility and Administration)
+                                                - Creative development of software solutions and mobile applications under ASP.Net Core Platform & Android.
                                             </p>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="#pablo" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-twitter"></i></a>
-                                            <a href="#pablo" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#pablo" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.linkedin.com/in/safibeik" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/SafiBeik" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
