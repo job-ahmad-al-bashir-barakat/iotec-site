@@ -13,5 +13,4 @@
 @include('layout._script')
 
 </body>
-
 </html>

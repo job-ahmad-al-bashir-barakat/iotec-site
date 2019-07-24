@@ -284,8 +284,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto text-center">
-                            <h2 class="title">The Executive Team</h2>
-                            <h5 class="description">This is the paragraph where you can write more details about your team. Keep you user engaged by providing meaningful information.</h5>
+                            <h2 class="title">Our Team</h2>
+                            <h5 class="description">Talent wins games, but teamwork and intelligence win championships</h5>
                         </div>
                     </div>
                     <div class="row">
@@ -294,8 +294,8 @@
                                 <div class="row">
                                     <div class="col-md-5">
                                         <div class="card-header card-header-image">
-                                            <a href="#pablo">
-                                                <img class="img" src="{{ asset('assets/img/faces/card-profile1-square.jpg') }}" />
+                                            <a href="#ABBarakat">
+                                                <img class="img" src="{{ asset('assets/img/faces/card-profile1-ahmad.jpg') }}" />
                                             </a>
                                         </div>
                                     </div>
@@ -304,13 +304,11 @@
                                             <h4 class="card-title">Ahmad Al Bashir Barakat</h4>
                                             <h6 class="card-category text-muted">Full Stack Developer - Founder</h6>
                                             <p class="card-description">
-                                                Don't be scared of the truth because we need to restart the human foundation in truth...
-                                            </p>
+                                                Software Engineer, dedicated to Full Stack Web Development.                                             </p>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="#pablo" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-twitter"></i></a>
-                                            <a href="#pablo" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#pablo" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.linkedin.com/in/ahmad-al-bashir-barakat/" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/AhmedAlbasheerBarakat/" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -321,23 +319,23 @@
                                 <div class="row">
                                     <div class="col-md-5">
                                         <div class="card-header card-header-image">
-                                            <a href="#pablo">
-                                                <img class="img" src="{{  asset('assets/img/faces/card-profile1-square.jpg') }}" />
+                                            <a href="#safibeik">
+                                                <img class="img" src="{{  asset('assets/img/faces/card-profile1-safi.jpg') }}" />
                                             </a>
                                         </div>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="card-body">
                                             <h4 class="card-title">Safi Beik Karbouj</h4>
-                                            <h6 class="card-category text-muted">ASP.Net & IT Network - Founder</h6>
+                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Founder</h6>
                                             <p class="card-description">
-                                                Don't be scared of the truth because we need to restart the human foundation in truth...
+                                                - Professional Engineering of information technology networks on multiple  levels (Connectivity, Quality of service, Security, Agility and Administration)
+                                               <br/> - Creative development of software solutions and mobile applications under ASP.Net Core Platform & Android.
                                             </p>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="#pablo" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-twitter"></i></a>
-                                            <a href="#pablo" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-linkedin"></i></a>
-                                            <a href="#pablo" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.linkedin.com/in/safibeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/SafiBeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>

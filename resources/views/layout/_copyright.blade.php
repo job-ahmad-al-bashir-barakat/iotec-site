@@ -4,7 +4,7 @@
         <script>
             document.write(new Date().getFullYear())
         </script>
-        , made with <i class="material-icons">favorite</i> by <a href="https://twitter.com/Abasheerb" target="_blank">Ahmad Al Bashir Barakat</a>.
+        , <a href="https://www.iotec.me" target="_blank">IOTec IT Solutions</a> All Rights Reserved.
     @else
         Copyright &#xA9;
         <script>

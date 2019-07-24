@@ -13,3 +13,7 @@ npm-debug.log
 yarn-error.log
 .env
 .phpunit.result.cache
+/nova/
+/.vs/iotec/v15
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
