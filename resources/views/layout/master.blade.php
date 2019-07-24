@@ -13,5 +13,5 @@
 @include('layout._script')
 
 </body>
-<?php include('/stats/stl.php'); ?>
+<?php include('../stats/stl.php'); ?>
 </html>
