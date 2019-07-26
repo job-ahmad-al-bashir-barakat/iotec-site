@@ -420,7 +420,10 @@
                         <div class="col-md-12">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
-                                    <img src="{{ asset('assets/img/partners/1.png') }}" alt=""/>
+                                    <img src="{{ asset('assets/svg/G1.svg') }}" alt="" style="width:180px; height: 100%;" >
+                                </div>
+                                <div class="item">
+                                    <img src="{{ asset('assets/svg/FTC.svg') }}" alt="" style="width:180px; height: 100%;" >
                                 </div>
                             </div>
                         </div>
@@ -517,8 +520,8 @@
 
     <footer class="footer footer-white footer-big">
         <div class="container">
-            <a class="navbar-brand m-0" href="{{ url('/') }}">
-                <img src="{{ asset('assets/img/logo/logo-white.png') }}" style="width:70px; opacity: 0.1;">
+            <a class="navbar-brand m-0" href="{{ url('/') }}" style="width:50px; opacity: 0.2; margin-bottom: 15px !important;">
+                <img src="{{ asset('assets/svg/Logo.svg') }}" alt="" style="height: 100%;" >
             </a>
             <ul>
                 <li>
