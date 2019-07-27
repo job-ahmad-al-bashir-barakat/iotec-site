@@ -6,11 +6,6 @@
     padding: 0 !important;
 }
 
-.navbar-brand img {
-    filter: brightness(0);
-    width: 50px;
-}
-
 .navbar-transparent .navbar-brand img {
     filter: brightness(100);
 }

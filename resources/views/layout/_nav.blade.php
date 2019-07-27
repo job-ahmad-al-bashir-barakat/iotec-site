@@ -14,21 +14,18 @@
         </div>
         <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav navbar-center ml-auto mr-auto">
-                <li class="d-lg-none m-auto">
-                    <img src="./assets/img/faces/marc.jpg" alt="Circle Image" class="rounded-circle" style="width: 150px; padding: 15px;">
-                </li>
                 <li class="nav-item">
                     <a href="{{ url('/') }}" class="nav-link">
                         Home
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('projects')  }}" class="nav-link">
+                    <a href="#projects" class="nav-link">
                         Our Projects
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ url('team') }}" class="nav-link">
+                    <a href="#teams" class="nav-link">
                         Our Team
                     </a>
                 </li>

@@ -33,7 +33,8 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
-                                            <h1 class="title">Welcome</h1>
+                                            <h1 class="title">Welcome Back
+                                            </h1>
                                             <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
                                             <br>
                                             <div class="buttons">
@@ -105,7 +106,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
-                                            <h1 class="title">Graphic Design</h1>
+                                            <h1 class="title">UI/UX Graphic Design</h1>
                                             <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
                                             <br>
                                             <div class="buttons">
@@ -123,7 +124,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
-                                            <h1 class="title">3D Design</h1>
+                                            <h1 class="title">3D / Motion Graphics Design</h1>
                                             <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
                                             <br>
                                             <div class="buttons">
@@ -165,6 +166,224 @@
                     </a>
                 </div>
                 <!-- End Carousel Card -->
+            </div>
+        </div>
+
+
+        <div class="cd-section" id="features">
+            <div class="container">
+                <!--     *********     FEATURES 3      *********      -->
+                <div class="features-3">
+                    <div class="row" style="margin-bottom: 70px;">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title">Our Services</h2>
+                            <h5 class="description">list of our services that we can gladly provide to users around the clock, so take a quick look to get to know us and what we able to do.</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6 pl-5 pr-5">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">extension</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Hundreds of Components</h4>
+                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">child_friendly</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Easy to Use</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">watch_later</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Fast Prototyping</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pl-5 pr-5">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">extension</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Hundreds of Components</h4>
+                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">child_friendly</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Easy to Use</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">watch_later</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Fast Prototyping</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--     *********    END FEATURES 3      *********      -->
+            </div>
+        </div>
+        <div class="cd-section" id="features">
+            <div class="container">
+                <div class="features-4">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title">Our Services</h2>
+                            <h5 class="description">list of our services that we can gladly provide to users around the clock, so take a quick look to get to know us and what we able to do.</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 pl-5 pr-5">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-info">
+                                    <i class="material-icons">code</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Software Development</h4>
+                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-danger">
+                                    <i class="material-icons">format_paint</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">For Designers</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pl-5 pr-5">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-info">
+                                    <i class="material-icons">code</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">For Developers</h4>
+                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-danger">
+                                    <i class="material-icons">format_paint</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">For Designers</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pl-5 pr-5">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-info">
+                                    <i class="material-icons">code</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">For Developers</h4>
+                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-danger">
+                                    <i class="material-icons">format_paint</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">For Designers</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cd-section" id="teams">
+            <div class="team-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title">Our Team</h2>
+                            <h5 class="description">A professional team of experts from all over the world</h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="card-header card-header-image">
+                                            <a href="#ABBarakat">
+                                                <img class="img" src="{{ asset('assets/img/faces/card-profile1-ahmad.jpg') }}" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Ahmad Al Bashir Barakat</h4>
+                                            <h6 class="card-category text-muted">Full Stack Developer - Founder</h6>
+                                            <p class="card-description">
+                                                Software Engineer, dedicated to Full Stack Web Development.                                             </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="https://www.linkedin.com/in/ahmad-al-bashir-barakat" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/job-ahmad-al-bashir-barakat" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="card-header card-header-image">
+                                            <a href="#safibeik">
+                                                <img class="img" src="{{  asset('assets/img/faces/card-profile1-safi.jpg') }}" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Safi Beik Karbouj</h4>
+                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Founder</h6>
+                                            <p class="card-description">
+                                                Network Engineer, .Net Developer for Software Solutions and Mobile Applications.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer">
+                                            <a href="https://www.linkedin.com/in/safibeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/SafiBeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-github"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -279,73 +498,6 @@
             </div>
         </div>
 
-        <div class="cd-section" id="teams">
-            <div class="team-5 section-image" style="background-image: url('{{ asset('assets/img/bg7.jpg') }}')">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 ml-auto mr-auto text-center">
-                            <h2 class="title">Our Team</h2>
-                            <h5 class="description">Talent wins games, but teamwork and intelligence win championships</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card card-profile card-plain">
-                                <div class="row">
-                                    <div class="col-md-5">
-                                        <div class="card-header card-header-image">
-                                            <a href="#ABBarakat">
-                                                <img class="img" src="{{ asset('assets/img/faces/card-profile1-ahmad.jpg') }}" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Ahmad Al Bashir Barakat</h4>
-                                            <h6 class="card-category text-muted">Full Stack Developer - Founder</h6>
-                                            <p class="card-description">
-                                                Software Engineer, dedicated to Full Stack Web Development.                                             </p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <a href="https://www.linkedin.com/in/ahmad-al-bashir-barakat/" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-linkedin"></i></a>
-                                            <a href="https://github.com/AhmedAlbasheerBarakat/" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-github"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card card-profile card-plain">
-                                <div class="row">
-                                    <div class="col-md-5">
-                                        <div class="card-header card-header-image">
-                                            <a href="#safibeik">
-                                                <img class="img" src="{{  asset('assets/img/faces/card-profile1-safi.jpg') }}" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <div class="card-body">
-                                            <h4 class="card-title">Safi Beik Karbouj</h4>
-                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Founder</h6>
-                                            <p class="card-description">
-                                                - Professional Engineering of information technology networks on multiple  levels (Connectivity, Quality of service, Security, Agility and Administration)
-                                               <br/> - Creative development of software solutions and mobile applications under ASP.Net Core Platform & Android.
-                                            </p>
-                                        </div>
-                                        <div class="card-footer">
-                                            <a href="https://www.linkedin.com/in/safibeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-linkedin"></i></a>
-                                            <a href="https://github.com/SafiBeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-github"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="cd-section" id="blogs">
             <div class="blogs-1" id="blogs-1">
                 <div class="container">
@@ -414,16 +566,16 @@
         </div>
 
         <div class="cd-section" id="partners">
-            <div class="clients-1 section-dark">
+            <div class="clients-1 section-white">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
-                                    <img src="{{ asset('assets/svg/G1.svg') }}" alt="" style="width:180px; height: 100%;" >
+                                    <img src="{{ asset('assets/svg/G1.svg') }}" alt="" style="filter:contrast(0); width:180px; height: 100%;" >
                                 </div>
                                 <div class="item">
-                                    <img src="{{ asset('assets/svg/FTC.svg') }}" alt="" style="width:180px; height: 100%;" >
+                                    <img src="{{ asset('assets/svg/FTC.svg') }}" alt="" style="filter:contrast(0); width:180px; height: 100%;" >
                                 </div>
                             </div>
                         </div>
