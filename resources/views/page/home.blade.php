@@ -468,7 +468,7 @@
         </div>
 
         <div class="cd-section" id="partners">
-            <div class="clients-1 section-white">
+            <div class="clients-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
