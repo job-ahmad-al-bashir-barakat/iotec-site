@@ -17,3 +17,5 @@ yarn-error.log
 /.vs/iotec/v15
 /.vs/slnx.sqlite
 /.vs/VSWorkspaceState.json
+/.vs/config/applicationhost.config
+/.vs/iotec-site/v15/.suo
