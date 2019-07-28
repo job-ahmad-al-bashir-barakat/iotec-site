@@ -460,6 +460,7 @@
 [class*="pricing-"],
 [class*="testimonials-"],
 [class*="contactus-"],
-[class*="clients-"]{
+[class*="clients-"],
+[class*="blogs"] {
   padding: 80px 0;
 }

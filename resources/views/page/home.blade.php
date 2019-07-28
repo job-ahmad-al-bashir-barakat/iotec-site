@@ -6,6 +6,20 @@
         .owl-carousel .item img {
             width: 60%;
         }
+        .blogs h5.description {
+            margin-bottom: 70px;
+        }
+
+        .projects-1 .nav {
+            margin-top: 70px;
+            margin-bottom: 30px;
+        }
+        .projects-1 .card-body {
+            padding: 60px;
+        }
+        .main {
+            background: #fdfdfd;
+        }
     </style>
 @endsection
 
@@ -169,7 +183,6 @@
             </div>
         </div>
 
-
         <div class="cd-section" id="features">
             <div class="container">
                 <!--     *********     FEATURES 3      *********      -->
@@ -245,80 +258,6 @@
                 <!--     *********    END FEATURES 3      *********      -->
             </div>
         </div>
-        <div class="cd-section" id="features">
-            <div class="container">
-                <div class="features-4">
-                    <div class="row">
-                        <div class="col-md-8 ml-auto mr-auto text-center">
-                            <h2 class="title">Our Services</h2>
-                            <h5 class="description">list of our services that we can gladly provide to users around the clock, so take a quick look to get to know us and what we able to do.</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12 pl-5 pr-5">
-                            <div class="info info-horizontal">
-                                <div class="icon icon-info">
-                                    <i class="material-icons">code</i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">Software Development</h4>
-                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
-                                </div>
-                            </div>
-                            <div class="info info-horizontal">
-                                <div class="icon icon-danger">
-                                    <i class="material-icons">format_paint</i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">For Designers</h4>
-                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 pl-5 pr-5">
-                            <div class="info info-horizontal">
-                                <div class="icon icon-info">
-                                    <i class="material-icons">code</i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">For Developers</h4>
-                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
-                                </div>
-                            </div>
-                            <div class="info info-horizontal">
-                                <div class="icon icon-danger">
-                                    <i class="material-icons">format_paint</i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">For Designers</h4>
-                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 pl-5 pr-5">
-                            <div class="info info-horizontal">
-                                <div class="icon icon-info">
-                                    <i class="material-icons">code</i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">For Developers</h4>
-                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
-                                </div>
-                            </div>
-                            <div class="info info-horizontal">
-                                <div class="icon icon-danger">
-                                    <i class="material-icons">format_paint</i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">For Designers</h4>
-                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div class="cd-section" id="teams">
             <div class="team-3">
@@ -388,27 +327,25 @@
         </div>
 
         <div class="cd-section" id="projects">
+            <!--     *********    PROJECTS 1     *********      -->
             <div class="projects-1" id="projects-1">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12 ml-auto mr-auto text-center">
-                            <h2 class="title">Some of Our Awesome Projects</h2>
+                        <div class="col-md-10 ml-auto mr-auto text-center">
+                            <h2 class="title">Some of Our Awesome Products</h2>
                             <ul class="nav nav-pills nav-pills-rose">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#pill1" data-toggle="tab">All</a>
+                                    <a class="nav-link active" href="#development" data-toggle="tab">Development</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#pill2" data-toggle="tab">Development</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#pill3" data-toggle="tab">Web Design</a>
+                                    <a class="nav-link" href="#web-design" data-toggle="tab">Web Design</a>
                                 </li>
                             </ul>
-                            <div class="tab-content tab-space">
-                                <div class="tab-pane active" id="pill1">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="development">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="card card-raised card-background" style="background-image: url('{{ asset('assets/img/examples/office2.jpg') }}')">
+                                            <div class="card">
                                                 <div class="card-body">
                                                     <h6 class="card-category text-info">Productivity</h6>
                                                     <a href="#pablo">
@@ -424,43 +361,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="card card-raised card-background" style="background-image: url('{{ asset('assets/img/examples/card-blog3.jpg') }}')">
-                                                <div class="card-body">
-                                                    <h6 class="card-category text-info">Design</h6>
-                                                    <h3 class="card-title">The Sculpture Where Details Matter</h3>
-                                                    <p class="card-description">
-                                                        Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                                                    </p>
-                                                    <a href="#pablo" class="btn btn-info btn-round">
-                                                        <i class="material-icons">build</i> View Project
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane" id="pill2">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="card card-raised card-background" style="background-image: url('{{ asset('assets/img/examples/card-project6.jpg') }}')">
-                                                <div class="card-body">
-                                                    <h6 class="card-category text-info">Marketing</h6>
-                                                    <h3 class="card-title">0 to 100.000 Customers in 6 months</h3>
-                                                    <p class="card-description">
-                                                        Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                                                    </p>
-                                                    <a href="#pablo" class="btn btn-warning btn-round">
-                                                        <i class="material-icons">subject</i> Case Study
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane" id="pill3">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="card card-raised card-background" style="background-image: url('{{ asset('assets/img/examples/office2.jpg') }}')">
+                                            <div class="card">
                                                 <div class="card-body">
                                                     <h6 class="card-category text-info">Productivity</h6>
                                                     <a href="#pablo">
@@ -475,16 +376,23 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="card card-raised card-background" style="background-image: url('{{ asset('assets/img/examples/card-blog3.jpg') }}')">
+
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="web-design">
+                                    <div class="row">
+                                        <div class="col-md-8 m-auto">
+                                            <div class="card">
                                                 <div class="card-body">
-                                                    <h6 class="card-category text-info">Design</h6>
-                                                    <h3 class="card-title">The Sculpture Where Details Matter</h3>
+                                                    <h6 class="card-category text-info">Productivity</h6>
+                                                    <a href="#pablo">
+                                                        <h3 class="card-title">The Best Productivity Apps on Market</h3>
+                                                    </a>
                                                     <p class="card-description">
                                                         Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
                                                     </p>
-                                                    <a href="#pablo" class="btn btn-info btn-round">
-                                                        <i class="material-icons">build</i> View Project
+                                                    <a href="#pablo" class="btn btn-danger btn-round">
+                                                        <i class="material-icons">content_copy</i> View App
                                                     </a>
                                                 </div>
                                             </div>
@@ -496,67 +404,61 @@
                     </div>
                 </div>
             </div>
+            <!--     *********    END PROJECTS 1      *********      -->
         </div>
 
-        <div class="cd-section" id="blogs">
-            <div class="blogs-1" id="blogs-1">
+        <div class="cd-section" id="blogs" >
+            <div class="blogs">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10 ml-auto mr-auto">
-                            <h2 class="title">Latest Blogposts</h2>
-                            <br>
-                            <div class="card card-plain card-blog">
-                                <div class="row">
-                                    <div class="col-md-5">
-                                        <div class="card-header card-header-image">
-                                            <a href="#pablito">
-                                                <img class="img" src="{{ asset('assets/img/examples/card-blog4.jpg') }}">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <h6 class="card-category text-info">Enterprise</h6>
-                                        <h3 class="card-title">
-                                            <a href="#pablo">Autodesk looks to future of 3D printing with Project Escher</a>
-                                        </h3>
-                                        <p class="card-description">
-                                            Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Today, it’s moving to a subscription model. Yet its own business model disruption is only part of the story — and…
-                                            <a href="#pablo"> Read More </a>
-                                        </p>
-                                        <p class="author">
-                                            by
-                                            <a href="#pablo">
-                                                <b>Mike Butcher</b>
-                                            </a>, 2 days ago
-                                        </p>
-                                    </div>
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title">Blog Feeds</h2>
+                            <h5 class="description">This is the paragraph where you can write more details about your team. Keep you user engaged by providing meaningful information.</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card card-blog">
+                                <div class="card-header card-header-image">
+                                    <a href="#pablo">
+                                        <img src="./assets/img/examples/color1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-category text-warning">Dynamic Shadows</h6>
+                                    <h4 class="card-title">
+                                        <a href="#pablo">The image from this card is getting a yellow shadow</a>
+                                    </h4>
                                 </div>
                             </div>
-                            <div class="card card-plain card-blog">
-                                <div class="row">
-                                    <div class="col-md-7">
-                                        <h6 class="card-category text-danger">
-                                            <i class="material-icons">trending_up</i> Trending
-                                        </h6>
-                                        <h3 class="card-title">
-                                            <a href="#pablo">6 insights into the French Fashion landscape</a>
-                                        </h3>
-                                        <p class="card-description">
-                                            Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Today, it’s moving to a subscription model. Yet its own business model disruption is only part of the story — and…
-                                            <a href="#pablo"> Read More </a>
-                                        </p>
-                                        <p class="author">
-                                            by
-                                            <a href="#pablo">
-                                                <b>Mike Butcher</b>
-                                            </a>, 2 days ago
-                                        </p>
-                                    </div>
-                                    <div class="col-md-5">
-                                        <div class="card-header card-header-image">
-                                            <img class="img img-raised" src="{{ asset('assets/img/office2.jpg') }}">
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-blog">
+                                <div class="card-header card-header-image">
+                                    <a href="#pablo">
+                                        <img src="./assets/img/examples/color2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h6 class="card-category text-rose">Dynamic Shadows</h6>
+                                    <h4 class="card-title">
+                                        <a href="#pablo">The image from this card is getting a pink shadow</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-blog">
+                                <div class="card-header card-header-image">
+                                    <a href="#pablo">
+                                        <img src="./assets/img/examples/color3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="card-body ">
+                                    <h6 class="card-category text-info">Dynamic Shadows</h6>
+                                    <h4 class="card-title">
+                                        <a href="#pablo">The image from this card is getting a blue shadow</a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
