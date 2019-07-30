@@ -20,6 +20,12 @@
         .main {
             background: #fdfdfd;
         }
+        .g-recaptcha{
+            transform:scale(0.77);
+            -webkit-transform:scale(0.77);
+            transform-origin:0 0;
+            -webkit-transform-origin:0 0;
+        }
     </style>
 @endsection
 
@@ -414,7 +420,7 @@
                     <div class="row">
                         <div class="col-md-8 ml-auto mr-auto text-center">
                             <h2 class="title">Blog Feeds</h2>
-                            <h5 class="description">This is the paragraph where you can write more details about your team. Keep you user engaged by providing meaningful information.</h5>
+                            <h5 class="description">Read our most recent articles in programming and networks tech feed and be ready to know new idea every day to expand your knowlage.</h5>
                         </div>
                     </div>
                     <div class="row">
@@ -570,16 +576,12 @@
                                             <textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
                                             <span class="material-input"></span>
                                         </div>
+
+                                        <div class="form-group label-floating is-empty">
+                                            <div class="g-recaptcha" data-sitekey="{{ env('CAPTCHA_KEY') }}"></div>
+                                        </div>
                                     </div>
                                     <div class="card-footer justify-content-between">
-                                        <div class="form-check">
-                                            <label class="form-check-label">
-                                                <input class="form-check-input" type="checkbox" value=""> I'm not a robot
-                                                <span class="form-check-sign">
-                                                <span class="check"></span>
-                                            </span>
-                                            </label>
-                                        </div>
                                         <button type="submit" class="btn btn-primary pull-right">Send Message</button>
                                     </div>
                                 </form>

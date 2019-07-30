@@ -36,7 +36,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="{{ url('dev-feed') }}" class="nav-link">
-                        Feed
+                        Dev Feeds
                     </a>
                 </li>
             </ul>
