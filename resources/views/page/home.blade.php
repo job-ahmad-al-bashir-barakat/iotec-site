@@ -259,7 +259,7 @@
             </div>
         </div>
 
-        <div class="cd-section" id="teams">
+        <div class="cd-section section-image" style="background-image: url('{{{ asset('assets/img/bg7.jpg') }}}')" id="teams">
             <div class="team-3">
                 <div class="container">
                     <div class="row">
@@ -283,7 +283,7 @@
                                     <div class="col-md-7">
                                         <div class="card-body">
                                             <h4 class="card-title">Ahmad Al Bashir Barakat</h4>
-                                            <h6 class="card-category text-muted">Full Stack Developer - Cairo</h6>
+                                            <h6 class="card-category text-muted">Full Stack Developer - Founder</h6>
                                             <p class="card-description">
                                                 Software Engineer, dedicated to Full Stack Web Development.                                             </p>
                                         </div>
@@ -308,7 +308,7 @@
                                     <div class="col-md-7">
                                         <div class="card-body">
                                             <h4 class="card-title">Safi Beik Karbouj</h4>
-                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Damascus</h6>
+                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Founder</h6>
                                             <p class="card-description">
                                                 Network Engineer, .Net Developer for Software Solutions and Mobile Applications.
                                             </p>
@@ -407,7 +407,7 @@
             <!--     *********    END PROJECTS 1      *********      -->
         </div>
 
-        <div class="cd-section" id="blogs" >
+        <div class="cd-section section-dark" id="blogs" >
             <div class="blogs">
                 <div class="container">
                     <div class="row">
