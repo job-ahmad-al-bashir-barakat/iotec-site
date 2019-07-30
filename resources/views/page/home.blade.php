@@ -492,15 +492,15 @@
                     <div class="row">
                         <div class="col-md-5">
                             <h2 class="title">Get in Touch</h2>
-                            <h5 class="description">You need more information? Check what other persons are saying about our product. They are very happy with their purchase.</h5>
+                            <h5 class="description">Describe your product and our team will make it for you and get it ready for use.</h5>
                             <div class="info info-horizontal">
                                 <div class="icon icon-primary">
                                     <i class="material-icons">pin_drop</i>
                                 </div>
-                                                                <div class="description">
+                                <div class="description">
                                     <h4 class="info-title">Find us at the office</h4>
-                                    <p>
-                                        <br> Al-Jamileih - Aleppo,
+                                    <p class="description">
+                                        Al-Jamileih - Aleppo,
                                         <br> Syria
                                     </p>
                                 </div>
@@ -511,12 +511,12 @@
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Give us a ring</h4>
-                                    <p> Safi Beik Karbouj
+                                    <p class="description">
+                                        Safi Beik Karbouj
                                         <br> (+963) 933 080 467
                                         <br> Saturday - Thursday, 8:00AM - 10:00PM
                                         <br>
-                                        <br>
-                                        Ahmad Al-Bashir Barakat
+                                        <br> Ahmad Al-Bashir Barakat
                                         <br> (+20) 127 719 6956
                                         <br> Saturday - Thursday, 8:00AM - 10:00PM
                                     </p>
@@ -546,11 +546,24 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group label-floating is-empty">
-                                            <label class="bmd-label-floating">Email address</label>
-                                            <input type="email" name="email" class="form-control">
-                                            <span class="material-input"></span>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group label-floating is-empty">
+                                                    <label class="bmd-label-floating">Email address</label>
+                                                    <input type="email" name="email" class="form-control">
+                                                    <span class="material-input"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group label-floating is-empty">
+                                                    <label class="bmd-label-floating">Phone</label>
+                                                    <input type="phone" name="phone" class="form-control">
+                                                    <span class="material-input"></span>
+                                                </div>
+                                            </div>
                                         </div>
+
+
                                         <div class="form-group label-floating is-empty">
                                             <label for="exampleMessage1" class="bmd-label-floating">Your Message</label>
                                             <textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
@@ -562,8 +575,8 @@
                                             <label class="form-check-label">
                                                 <input class="form-check-input" type="checkbox" value=""> I'm not a robot
                                                 <span class="form-check-sign">
-                          <span class="check"></span>
-                        </span>
+                                                <span class="check"></span>
+                                            </span>
                                             </label>
                                         </div>
                                         <button type="submit" class="btn btn-primary pull-right">Send Message</button>
