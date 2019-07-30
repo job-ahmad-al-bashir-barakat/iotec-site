@@ -47,9 +47,9 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
-                                            <h1 class="title">Welcome Back
-                                            </h1>
-                                            <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                                            <h1 class="title">Welcome</h1>
+                                            <h4>IOTec is a top Business and Technology Solutions company in Syria that excels in developing custom enterprise applications, bespoke mobile solutions and disruptive IT solutions.  We are a forward thinking company that was establish with a plan of delivering end to end solutions that are at-par and cutting edge. We are a team of dynamic professionals and highly skilled technocrats that have just one motto and that is adding value to your business.
+<br>We proudly, make in "The Cradle of Civilization" & deliver across the globe</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -67,7 +67,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Programming</h1>
-                                            <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                                            <h4>The development of reliable and scalable software solutions for any OS, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver custom solutions and products that perfectly fit the needs and behavior of their users.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -85,7 +85,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Android / IOS Mobile app</h1>
-                                            <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                                            <h4>IOTec builds an average of 2-5 apps per year, and we’ve developed mobile apps since 2017. Over the years, we’ve built a wide variety of apps across a multitude of genres, from entertainment blogs, to business management and productivity enhancement. We continuously develop our own skill set to remain at the forefront of industry standards, in order to provide relevant, pertinent, and trend-setting apps for you and your customers.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -103,7 +103,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Web Design</h1>
-                                            <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                                            <h4>We build the online identity for your successful company. With decades of experience in making smart and modern designs, we deliver quality web design at affordable costs, our professional team has appreciable experience starting from simple websites to complex websites. We develop Customised Website, Blogs , CSM Systems, and more.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -120,8 +120,8 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
-                                            <h1 class="title">UI/UX Graphic Design</h1>
-                                            <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                                            <h1 class="title">Graphic Design</h1>
+                                            <h4>Are your designs getting lost in the woods? It’s easy to become camouflaged among the thousands of visuals companies put out every day. But with IOTec, your message will stand out. Our designs are meant to inspire action and created with the intent to convert. No matter what the project, we approach each piece with a marketer’s mindset, focusing on what will work best for your brand.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -138,8 +138,8 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
-                                            <h1 class="title">3D / Motion Graphics Design</h1>
-                                            <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                                            <h1 class="title">3D Design</h1>
+                                            <h4>IOTec has exceptional expertise in handling diverse 3D visualization projects for global industry clients. Our company offers affordable architecture and product visualization solutions that helps to convert client’s ideas into reality by delivering the best quality visuals under tight deadlines. Our services include 3D walkthroughs, product animations, and virtual tours creation. Our talented designer team provides photorealistic renderings using already exisiting CAD files or create new models with apt color balance, lighting, texture, and composition that enable clients to envision their ideas to the smallest detail.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -157,7 +157,8 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Networking</h1>
-                                            <h4>Dolce &amp; Gabbana is a luxury Italian fashion house founded in 1985 in Legnano by Italian designers Domenico Dolce and Stefano Gabbana. The two met in Milan in 1980 and designed for the same fashion house.</h4>
+                                            <h4>At IOTec, we help you assess, design, and implement the physical infrastructure needed to provide a network that is flexible to the changing demands of your organization.
+<br><br>We provide network management solutions because we understand that your network is the backbone of your IT System. Today’s networks are more extensive than ever with the volume and variety of devices connected to networks increasing every day thats why making sure you stay one step ahead of managing your network performance is an ongoing challenge for any organization. Building a modern network includes optimizing connectivity, maximizing bandwidth and enabling better collaboration.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -283,7 +284,7 @@
                                     <div class="col-md-7">
                                         <div class="card-body">
                                             <h4 class="card-title">Ahmad Al Bashir Barakat</h4>
-                                            <h6 class="card-category">Full Stack Developer - Founder</h6>
+                                            <h6 class="card-category text-muted">Full Stack Developer - Cairo</h6>
                                             <p class="card-description">
                                                 Software Engineer, dedicated to Full Stack Web Development.                                             </p>
                                         </div>
@@ -308,7 +309,7 @@
                                     <div class="col-md-7">
                                         <div class="card-body">
                                             <h4 class="card-title">Safi Beik Karbouj</h4>
-                                            <h6 class="card-category">ASP.Net & IT Network Engineer - Founder</h6>
+                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Damascus</h6>
                                             <p class="card-description">
                                                 Network Engineer, .Net Developer for Software Solutions and Mobile Applications.
                                             </p>
