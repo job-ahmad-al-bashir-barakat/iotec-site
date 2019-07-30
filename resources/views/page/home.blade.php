@@ -497,11 +497,11 @@
                                 <div class="icon icon-primary">
                                     <i class="material-icons">pin_drop</i>
                                 </div>
-                                <div class="description">
+                                                                <div class="description">
                                     <h4 class="info-title">Find us at the office</h4>
-                                    <p> Bld Mihail Kogalniceanu, nr. 8,
-                                        <br> 7652 Bucharest,
-                                        <br> Romania
+                                    <p>
+                                        <br> Al-Jamileih - Aleppo,
+                                        <br> Syria
                                     </p>
                                 </div>
                             </div>
@@ -511,9 +511,14 @@
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Give us a ring</h4>
-                                    <p> Michael Jordan
-                                        <br> +40 762 321 762
-                                        <br> Mon - Fri, 8:00-22:00
+                                    <p> Safi Beik Karbouj
+                                        <br> (+963) 933 080 467
+                                        <br> Saturday - Thursday, 8:00AM - 10:00PM
+                                        <br>
+                                        <br>
+                                        Ahmad Al-Bashir Barakat
+                                        <br> (+20) 127 719 6956
+                                        <br> Saturday - Thursday, 8:00AM - 10:00PM
                                     </p>
                                 </div>
                             </div>
