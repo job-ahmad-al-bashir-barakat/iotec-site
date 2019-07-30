@@ -283,7 +283,7 @@
                                     <div class="col-md-7">
                                         <div class="card-body">
                                             <h4 class="card-title">Ahmad Al Bashir Barakat</h4>
-                                            <h6 class="card-category text-muted">Full Stack Developer - Founder</h6>
+                                            <h6 class="card-category text-muted">Full Stack Developer - Cairo</h6>
                                             <p class="card-description">
                                                 Software Engineer, dedicated to Full Stack Web Development.                                             </p>
                                         </div>
@@ -308,7 +308,7 @@
                                     <div class="col-md-7">
                                         <div class="card-body">
                                             <h4 class="card-title">Safi Beik Karbouj</h4>
-                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Founder</h6>
+                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Damascus</h6>
                                             <p class="card-description">
                                                 Network Engineer, .Net Developer for Software Solutions and Mobile Applications.
                                             </p>

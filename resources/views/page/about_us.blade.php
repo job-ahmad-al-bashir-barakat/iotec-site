@@ -22,8 +22,10 @@
                 <div class="about-description pt-5 pb-5">
                     <div class="row text-center">
                         <div class="col-md-8 ml-auto mr-auto">
-                            <h2 class="title">Our Goal</h2>
-                            <h4 class="description">Here are some pictures from our office. You can see the place looks like a palace and is fully equiped with everything you need to get the job done.</h4>
+                            <h2 class="title">Why choose IOTec</h2>
+                            <h4 class="description">IOTec™ experts help deliver a unique experience surrounding our products. Whether you need help with configuration, training, or even a feature request, we are dedicated to finding a specialized expert to assist our clients with any issue.
+                            <br>
+Our company adds value to clients by contributing the experience and technical skills to achieve consistent, high-quality results that meet budgetary and timeline objectives.  .</h4>
                         </div>
                     </div>
                 </div>
