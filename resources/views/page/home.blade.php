@@ -259,7 +259,7 @@
             </div>
         </div>
 
-        <div class="cd-section" id="teams">
+        <div class="cd-section section-image" style="background-image: url('{{{ asset('assets/img/bg7.jpg') }}}')" id="teams">
             <div class="team-3">
                 <div class="container">
                     <div class="row">
@@ -407,7 +407,7 @@
             <!--     *********    END PROJECTS 1      *********      -->
         </div>
 
-        <div class="cd-section" id="blogs" >
+        <div class="cd-section section-dark" id="blogs" >
             <div class="blogs">
                 <div class="container">
                     <div class="row">
