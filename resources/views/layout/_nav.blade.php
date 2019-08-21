@@ -42,7 +42,7 @@
             </ul>
             <ul class="navbar-nav d-none d-lg-flex">
 
-                {{--{{ $slot ?? '' }}--}}
+                {{ $slot ?? '' }}
                 <li class="nav-item">
                     <a href="https://www.facebook.com/iotec.me" class="nav-link">
                         <i class="fa fa-facebook-square"></i>
