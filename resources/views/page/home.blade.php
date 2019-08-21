@@ -48,8 +48,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Welcome</h1>
-                                            <h4>IOTec is a top Business and Technology Solutions company in Syria that excels in developing custom enterprise applications, bespoke mobile solutions and disruptive IT solutions.  We are a forward thinking company that was establish with a plan of delivering end to end solutions that are at-par and cutting edge. We are a team of dynamic professionals and highly skilled technocrats that have just one motto and that is adding value to your business.
-<br>We proudly, make in "The Cradle of Civilization" & deliver across the globe</h4>
+                                            <h4>IOTec is a top Business and Technology Solutions team in Syria that excels in developing custom enterprise applications</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -85,7 +84,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Android / IOS Mobile app</h1>
-                                            <h4>IOTec builds an average of 2-5 apps per year, and we’ve developed mobile apps since 2017. Over the years, we’ve built a wide variety of apps across a multitude of genres, from entertainment blogs, to business management and productivity enhancement. We continuously develop our own skill set to remain at the forefront of industry standards, in order to provide relevant, pertinent, and trend-setting apps for you and your customers.</h4>
+                                            <h4>We continuously develop our own skill set to remain at the forefront of industry standards, in order to provide relevant, pertinent, and trend-setting apps for you and your customers.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -103,7 +102,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Web Design</h1>
-                                            <h4>We build the online identity for your successful company. With decades of experience in making smart and modern designs, we deliver quality web design at affordable costs, our professional team has appreciable experience starting from simple websites to complex websites. We develop Customised Website, Blogs , CSM Systems, and more.</h4>
+                                            <h4>We build the online identity for your successful company. With years of experience in making smart and modern holastic marketing strategies.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -121,7 +120,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Digital Markting</h1>
-                                            <h4>We build the online identity for your successful company. With decades of experience in making smart and modern designs, we deliver quality web design at affordable costs, our professional team has appreciable experience starting from simple websites to complex websites. We develop Customised Website, Blogs , CSM Systems, and more.</h4>
+                                            <h4>We deliver quality web design at affordable costs, our professional team has appreciable experience starting from simple websites to complex websites. We develop Customised Website, Blogs , CSM Systems, and more.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -139,7 +138,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">UI/UX Graphic Design</h1>
-                                            <h4>Are your designs getting lost in the woods? It’s easy to become camouflaged among the thousands of visuals companies put out every day. But with IOTec, your message will stand out. Our designs are meant to inspire action and created with the intent to convert. No matter what the project, we approach each piece with a marketer’s mindset, focusing on what will work best for your brand.</h4>
+                                            <h4>Our designs are meant to inspire action and created with the intent to convert. No matter what the project, we approach each piece with a marketer’s mindset, focusing on what will work best for your brand.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -157,7 +156,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">3D / Motion Design</h1>
-                                            <h4>IOTec has exceptional expertise in handling diverse 3D visualization projects for global industry clients. Our company offers affordable architecture and product visualization solutions that helps to convert client’s ideas into reality by delivering the best quality visuals under tight deadlines. Our services include 3D walkthroughs, product animations, and virtual tours creation. Our talented designer team provides photorealistic renderings using already exisiting CAD files or create new models with apt color balance, lighting, texture, and composition that enable clients to envision their ideas to the smallest detail.</h4>
+                                            <h4>Our animation team offers affordable architecture and product visualization solutions that helps to convert client’s ideas into reality by delivering the best quality visuals under tight deadlines.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -175,8 +174,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Networking</h1>
-                                            <h4>At IOTec, we help you assess, design, and implement the physical infrastructure needed to provide a network that is flexible to the changing demands of your organization.
-<br><br>We provide network management solutions because we understand that your network is the backbone of your IT System. Today’s networks are more extensive than ever with the volume and variety of devices connected to networks increasing every day thats why making sure you stay one step ahead of managing your network performance is an ongoing challenge for any organization. Building a modern network includes optimizing connectivity, maximizing bandwidth and enabling better collaboration.</h4>
+                                            <h4>At IOTec, we help you assess, design, and implement the physical infrastructure needed to provide a network that is flexible to the changing demands of your organization.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
