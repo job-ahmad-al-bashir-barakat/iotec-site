@@ -28,7 +28,7 @@
                                         </div>
                                         <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
                                             <div class="card-body">
-                                            Yes. We provide full support with the guarentee of the product typically for 12Months.
+                                            Yes. We provide full support with the guarentee of the product typically for 6 Months.
                                             </div>
                                         </div>
                                     </div>
@@ -57,7 +57,7 @@
                                         </div>
                                         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                                             <div class="card-body">
-                                                We can provide hosting services within Syria, Egypt or Europe with reasonable prices.
+                                                We can provide hosting services within Egypt or Europe with reasonable prices.
                                             </div>
                                         </div>
                                     </div>

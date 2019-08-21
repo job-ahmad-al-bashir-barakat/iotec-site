@@ -44,12 +44,12 @@
 
                 {{--{{ $slot ?? '' }}--}}
                 <li class="nav-item">
-                    <a href="#facebook" class="nav-link">
+                    <a href="https://www.facebook.com/iotec.me" class="nav-link">
                         <i class="fa fa-facebook-square"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#github" class="nav-link">
+                    <a href="https://www.linkedin.com/company/iotec-me/" class="nav-link">
                         <i class="fa fa-linkedin"></i>
                     </a>
                 </li>

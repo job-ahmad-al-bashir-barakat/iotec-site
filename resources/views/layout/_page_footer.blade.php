@@ -8,11 +8,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{ url('about-us') }}">
-                        About Us
-                    </a>
-                </li>
-                <li>
                     <a href="{{ url('blog') }}">
                         Blog
                     </a>

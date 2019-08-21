@@ -31,7 +31,7 @@ var APP_IOTec = {
                     navContainerClass: "owl-nav text-center",
                     navText: ["<i class='material-icons'>navigate_before</i>","<i class='material-icons'>navigate_next</i>"],
                     dots: dots,
-                    center:true,
+                    center:false,
                     autoplay: autoplay,
                     autoplayTimeout: autoplayTimeout,
                     autoplayHoverPause:true,

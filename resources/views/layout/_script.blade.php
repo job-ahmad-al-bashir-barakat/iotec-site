@@ -18,8 +18,6 @@
 <script src="{{ asset('assets/js/plugins/jasny-bootstrap.min.js') }}" type="text/javascript"></script>
 <!-- Plugin for Small Gallery in Product Page -->
 <script src="{{ asset('assets/js/plugins/jquery.flexisel.js') }}" type="text/javascript"></script>
-<!-- Recaptcha Api -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!-- Plugins for presentation and navigation  -->
 <script src="{{ asset('assets/demo/modernizr.js') }}" type="text/javascript"></script>
 <script src="{{ asset('assets/demo/vertical-nav.js') }}" type="text/javascript"></script>

@@ -12,10 +12,6 @@ class MainControler extends Controller
         return view('page.home');
     }
 
-    function aboutUs() {
-        return view('page.about_us');
-    }
-
     function termsAndAgreements() {
         return view('page.terms_and_conditions');
     }
@@ -42,5 +38,9 @@ class MainControler extends Controller
 
     function blog() {
         return view('page.blog');
+    }
+
+    function contact() {
+        dd(\request()->input());
     }
 }

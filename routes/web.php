@@ -15,7 +15,7 @@ Route::group([
     'namespace' => '\App\Http\Controllers',
 ],function () {
     Route::get('/', 'MainControler@home');
-    Route::get('about-us', 'MainControler@aboutUs');
+    Route::post('contact','MainControler@contact');
     Route::get('terms-and-conditions', 'MainControler@termsAndAgreements');
     Route::get('faq', 'MainControler@faq');
     Route::get('dev-feed','MainControler@devFeed');

@@ -20,12 +20,6 @@
         .main {
             background: #fdfdfd;
         }
-        .g-recaptcha{
-            transform:scale(0.77);
-            -webkit-transform:scale(0.77);
-            transform-origin:0 0;
-            -webkit-transform-origin:0 0;
-        }
     </style>
 @endsection
 
@@ -332,75 +326,76 @@
                 </div>
             </div>
         </div>
-
-        <div class="cd-section" id="projects">
-            <!--     *********    PROJECTS 1     *********      -->
-            <div class="projects-1" id="projects-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 ml-auto mr-auto text-center">
-                            <h2 class="title">Some of Our Awesome Products</h2>
-                            <ul class="nav nav-pills nav-pills-rose">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#development" data-toggle="tab">Development</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#web-design" data-toggle="tab">Web Design</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content">
-                                <div class="tab-pane active" id="development">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h6 class="card-category text-info">Productivity</h6>
-                                                    <a href="#pablo">
-                                                        <h3 class="card-title">The Best Productivity Apps on Market</h3>
-                                                    </a>
-                                                    <p class="card-description">
-                                                        Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                                                    </p>
-                                                    <a href="#pablo" class="btn btn-danger btn-round">
-                                                        <i class="material-icons">content_copy</i> View App
-                                                    </a>
+        <div class="section-white-to-gray">
+            <div class="cd-section" id="projects">
+                <!--     *********    PROJECTS 1     *********      -->
+                <div class="projects-1" id="projects-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 ml-auto mr-auto text-center">
+                                <h2 class="title">Some of Our Projects</h2>
+                                <ul class="nav nav-pills nav-pills-rose">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#development" data-toggle="tab">Development</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#web-design" data-toggle="tab">Web Design</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="development">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h6 class="card-category text-info">Productivity</h6>
+                                                        <a href="#pablo">
+                                                            <h3 class="card-title">The Best Productivity Apps on Market</h3>
+                                                        </a>
+                                                        <p class="card-description">
+                                                            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                                                        </p>
+                                                        <a href="#pablo" class="btn btn-danger btn-round">
+                                                            <i class="material-icons">content_copy</i> View App
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h6 class="card-category text-info">Productivity</h6>
-                                                    <a href="#pablo">
-                                                        <h3 class="card-title">The Best Productivity Apps on Market</h3>
-                                                    </a>
-                                                    <p class="card-description">
-                                                        Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                                                    </p>
-                                                    <a href="#pablo" class="btn btn-danger btn-round">
-                                                        <i class="material-icons">content_copy</i> View App
-                                                    </a>
+                                            <div class="col-md-6">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h6 class="card-category text-info">Productivity</h6>
+                                                        <a href="#pablo">
+                                                            <h3 class="card-title">The Best Productivity Apps on Market</h3>
+                                                        </a>
+                                                        <p class="card-description">
+                                                            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                                                        </p>
+                                                        <a href="#pablo" class="btn btn-danger btn-round">
+                                                            <i class="material-icons">content_copy</i> View App
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane" id="web-design">
-                                    <div class="row">
-                                        <div class="col-md-8 m-auto">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <h6 class="card-category text-info">Productivity</h6>
-                                                    <a href="#pablo">
-                                                        <h3 class="card-title">The Best Productivity Apps on Market</h3>
-                                                    </a>
-                                                    <p class="card-description">
-                                                        Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                                                    </p>
-                                                    <a href="#pablo" class="btn btn-danger btn-round">
-                                                        <i class="material-icons">content_copy</i> View App
-                                                    </a>
+                                    <div class="tab-pane" id="web-design">
+                                        <div class="row">
+                                            <div class="col-md-8 m-auto">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h6 class="card-category text-info">Productivity</h6>
+                                                        <a href="#pablo">
+                                                            <h3 class="card-title">The Best Productivity Apps on Market</h3>
+                                                        </a>
+                                                        <p class="card-description">
+                                                            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                                                        </p>
+                                                        <a href="#pablo" class="btn btn-danger btn-round">
+                                                            <i class="material-icons">content_copy</i> View App
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -410,74 +405,71 @@
                         </div>
                     </div>
                 </div>
+                <!--     *********    END PROJECTS 1      *********      -->
             </div>
-            <!--     *********    END PROJECTS 1      *********      -->
-        </div>
-
-        <div class="cd-section section-dark" id="blogs" >
-            <div class="blogs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 ml-auto mr-auto text-center">
-                            <h2 class="title">Blog Feeds</h2>
-                            <h5 class="description">Read our most recent articles in programming and networks tech feed and be ready to know new idea every day to expand your knowlage.</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card card-blog">
-                                <div class="card-header card-header-image">
-                                    <a href="#pablo">
-                                        <img src="./assets/img/examples/color1.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-category text-warning">Dynamic Shadows</h6>
-                                    <h4 class="card-title">
-                                        <a href="#pablo">The image from this card is getting a yellow shadow</a>
-                                    </h4>
-                                </div>
+            <div class="cd-section" id="blogs" >
+                <div class="blogs pt-0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 ml-auto mr-auto text-center">
+                                <h2 class="title">Blog Feeds</h2>
+                                <h5 class="description">Read our most recent articles in programming and networks tech feed and be ready to know new idea every day to expand your knowlage.</h5>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card card-blog">
-                                <div class="card-header card-header-image">
-                                    <a href="#pablo">
-                                        <img src="./assets/img/examples/color2.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-category text-rose">Dynamic Shadows</h6>
-                                    <h4 class="card-title">
-                                        <a href="#pablo">The image from this card is getting a pink shadow</a>
-                                    </h4>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card card-blog">
+                                    <div class="card-header card-header-image">
+                                        <a href="#pablo">
+                                            <img src="./assets/img/examples/color1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-category text-warning">Dynamic Shadows</h6>
+                                        <h4 class="card-title">
+                                            <a href="#pablo">The image from this card is getting a yellow shadow</a>
+                                        </h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card card-blog">
-                                <div class="card-header card-header-image">
-                                    <a href="#pablo">
-                                        <img src="./assets/img/examples/color3.jpg" alt="">
-                                    </a>
+                            <div class="col-md-4">
+                                <div class="card card-blog">
+                                    <div class="card-header card-header-image">
+                                        <a href="#pablo">
+                                            <img src="./assets/img/examples/color2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="card-category text-rose">Dynamic Shadows</h6>
+                                        <h4 class="card-title">
+                                            <a href="#pablo">The image from this card is getting a pink shadow</a>
+                                        </h4>
+                                    </div>
                                 </div>
-                                <div class="card-body ">
-                                    <h6 class="card-category text-info">Dynamic Shadows</h6>
-                                    <h4 class="card-title">
-                                        <a href="#pablo">The image from this card is getting a blue shadow</a>
-                                    </h4>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-blog">
+                                    <div class="card-header card-header-image">
+                                        <a href="#pablo">
+                                            <img src="./assets/img/examples/color3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="card-body ">
+                                        <h6 class="card-category text-info">Dynamic Shadows</h6>
+                                        <h4 class="card-title">
+                                            <a href="#pablo">The image from this card is getting a blue shadow</a>
+                                        </h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="cd-section" id="partners">
-            <div class="clients-1">
+            <div class="cd-section"  id="partners">
+            <div class="clients-1 pt-0">
                 <div class="container">
-                    <div class="row">
+                    <div class="row ">
                         <div class="col-md-12">
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
@@ -492,7 +484,7 @@
                 </div>
             </div>
         </div>
-
+        </div>
         <div class="cd-section" id="contactus">
             <div class="contactus-1 section-image" style="background-image: url('{{ asset('assets/img/examples/city.jpg') }}')">
                 <div class="container">
@@ -532,7 +524,9 @@
                         </div>
                         <div class="col-md-5 ml-auto">
                             <div class="card card-contact">
-                                <form id="contact-form" method="post">
+                                <form id="contact-form" method="post" action="{{ url('contact') }}">
+                                    {{ csrf_field() }}
+                                    <input type="hidden" name="_method" value="post">
                                     <div class="card-header card-header-raised card-header-primary text-center">
                                         <h4 class="card-title">Contact Us</h4>
                                     </div>
@@ -541,15 +535,25 @@
                                             <div class="col-md-6">
                                                 <div class="form-group label-floating is-empty">
                                                     <label class="bmd-label-floating">First name</label>
-                                                    <input type="text" name="name" class="form-control">
+                                                    <input type="text" id="first-name" name="first_name" class="form-control" required>
                                                     <span class="material-input"></span>
+                                                    @if($errors->has('first_name'))
+                                                        <div class="d-block invalid-feedback">
+                                                            {{ $errors->first('first_name') }}
+                                                        </div>
+                                                    @endif
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group label-floating is-empty">
                                                     <label class="bmd-label-floating">Last name</label>
-                                                    <input type="text" name="name" class="form-control">
+                                                    <input type="text" id="last-name" name="last_name" class="form-control" required>
                                                     <span class="material-input"></span>
+                                                    @if($errors->has('last_name'))
+                                                        <div class="d-block invalid-feedback">
+                                                            {{ $errors->first('last_name') }}
+                                                        </div>
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -557,28 +561,38 @@
                                             <div class="col-md-6">
                                                 <div class="form-group label-floating is-empty">
                                                     <label class="bmd-label-floating">Email address</label>
-                                                    <input type="email" name="email" class="form-control">
+                                                    <input type="email" id="email" name="email" class="form-control" required>
                                                     <span class="material-input"></span>
+                                                    @if($errors->has('email'))
+                                                        <div class="d-block invalid-feedback">
+                                                            {{ $errors->first('email') }}
+                                                        </div>
+                                                    @endif
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group label-floating is-empty">
                                                     <label class="bmd-label-floating">Phone</label>
-                                                    <input type="phone" name="phone" class="form-control">
+                                                    <input type="phone" name="phone" id="phone" class="form-control" required>
                                                     <span class="material-input"></span>
+                                                    @if($errors->has('phone'))
+                                                        <div class="d-block invalid-feedback">
+                                                            {{ $errors->first('phone') }}
+                                                        </div>
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
 
-
                                         <div class="form-group label-floating is-empty">
                                             <label for="exampleMessage1" class="bmd-label-floating">Your Message</label>
-                                            <textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
+                                            <textarea name="message" class="form-control" id="message" rows="6" required></textarea>
                                             <span class="material-input"></span>
-                                        </div>
-
-                                        <div class="form-group label-floating is-empty">
-                                            <div class="g-recaptcha" data-sitekey="{{ env('CAPTCHA_KEY') }}"></div>
+                                            @if($errors->has('message'))
+                                                <div class="d-block invalid-feedback">
+                                                    {{ $errors->first('message') }}
+                                                </div>
+                                            @endif
                                         </div>
                                     </div>
                                     <div class="card-footer justify-content-between">
@@ -600,11 +614,6 @@
             </a>
             <ul>
                 <li>
-                    <a href="{{ url('about-us') }}">
-                        About Us
-                    </a>
-                </li>
-                <li>
                     <a href="{{ url('faq') }}">
                         FAQ
                     </a>
@@ -612,6 +621,11 @@
                 <li>
                     <a href="{{ url('terms-and-conditions') }}">
                         Terms & Conditions
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ url('blog') }}">
+                        Blog
                     </a>
                 </li>
             </ul>
