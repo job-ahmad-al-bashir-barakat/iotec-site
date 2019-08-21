@@ -1,3 +1,4 @@
+{{--
 <nav id="cd-vertical-nav">
     <ul>
         <li>
@@ -38,3 +39,4 @@
         </li>
     </ul>
 </nav>
+--}}
