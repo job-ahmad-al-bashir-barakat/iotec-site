@@ -29,7 +29,7 @@
 
         <div class="cd-section" id="home">
             <div class="header-1">
-                @include('layout._nav')
+                @include('layout._nav', ['isHash' => true ])
                 <!-- Carousel Card -->
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">

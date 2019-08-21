@@ -1,3 +1,5 @@
+@php($isHash = $isHash ?? false)
+
 <nav class="navbar navbar-color-on-scroll fixed-top navbar-expand-lg navbar-transparent"  color-on-scroll="50" id="sectionsNav">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -15,18 +17,18 @@
         <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav navbar-center ml-auto mr-auto">
                 <li class="nav-item">
-                    <a href="{{ url('/') }}" class="nav-link">
+                    <a href="{{ $isHash ? "#home" : url('/') }}" class="nav-link">
                         Home
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#projects" class="nav-link">
-                        Our Projects
+                    <a href="{{ $isHash ? "#teams" : url('/#teams') }}" class="nav-link">
+                        Our Team
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#teams" class="nav-link">
-                        Our Team
+                    <a href="{{ $isHash ? "#projects" : url('/#projects') }}" class="nav-link">
+                        Our Projects
                     </a>
                 </li>
                 <li class="nav-item">
