@@ -66,7 +66,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Programming</h1>
-                                            <h4>The development of reliable and scalable software solutions for any OS, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver custom solutions and products that perfectly fit the needs and behavior of their users.</h4>
+                                            <h4>The development of reliable and scalable software solutions for any OS, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver the best solutions.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -102,7 +102,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Web Design</h1>
-                                            <h4>We build the online identity for your successful company. With years of experience in making smart and modern holastic marketing strategies.</h4>
+                                                                                        <h4>We deliver quality web design at affordable costs, our professional team has appreciable experience starting from simple websites to complex websites. We develop Customised Website, Blogs , CSM Systems, and more.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -120,7 +120,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Digital Markting</h1>
-                                            <h4>We deliver quality web design at affordable costs, our professional team has appreciable experience starting from simple websites to complex websites. We develop Customised Website, Blogs , CSM Systems, and more.</h4>
+                                                                                        <h4>We build the online identity for your successful company. With years of experience in making smart and modern holastic marketing strategies.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
