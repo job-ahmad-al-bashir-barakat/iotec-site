@@ -9,7 +9,7 @@
     @component('layout._nav')
         <li class="dropdown nav-item nav-dev-feed-list">
             <a href="#pablo" class="nav-link" data-toggle="dropdown">
-                <i class="material-icons">rss_feed</i>
+                <i class="material-icons">save</i>
                 <b class="caret"></b>
             </a>
             <div class="dropdown-menu dropdown-menu-right dropdown-menu-prevent-close p-0">

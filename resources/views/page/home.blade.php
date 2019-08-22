@@ -14,9 +14,13 @@
             margin-top: 70px;
             margin-bottom: 30px;
         }
+        .projects-1 .card .card-title {
+            margin-bottom: 0.625rem;
+        }
         .projects-1 .card-body {
             padding: 60px;
         }
+
         .main {
             background: #fdfdfd;
         }
@@ -346,7 +350,6 @@
         </div>
         <div class="section-white-to-gray">
             <div class="cd-section" id="projects">
-                <!--     *********    PROJECTS 1     *********      -->
                 <div class="projects-1" id="projects-1">
                     <div class="container">
                         <div class="row">
@@ -373,7 +376,7 @@
                                                         <p class="card-description">
                                                             Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
                                                         </p>
-                                                        <a href="#pablo" class="btn btn-danger btn-round">
+                                                        <a href="javascript:;" class="btn btn-danger btn-round" data-src="https://www.youtube.com/watch?v=4zzbNac6f6Q" data-fancybox>
                                                             <i class="material-icons">content_copy</i> View App
                                                         </a>
                                                     </div>
@@ -389,7 +392,7 @@
                                                         <p class="card-description">
                                                             Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
                                                         </p>
-                                                        <a href="#pablo" class="btn btn-danger btn-round">
+                                                        <a href="javascript:;" class="btn btn-danger btn-round" data-src="https://www.youtube.com/watch?v=4zzbNac6f6Q" data-fancybox>
                                                             <i class="material-icons">content_copy</i> View App
                                                         </a>
                                                     </div>
@@ -410,7 +413,7 @@
                                                         <p class="card-description">
                                                             Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
                                                         </p>
-                                                        <a href="#pablo" class="btn btn-danger btn-round">
+                                                        <a href="javascript:;" class="btn btn-danger btn-round" data-src="https://www.youtube.com/watch?v=4zzbNac6f6Q" data-fancybox>
                                                             <i class="material-icons">content_copy</i> View App
                                                         </a>
                                                     </div>
@@ -423,7 +426,6 @@
                         </div>
                     </div>
                 </div>
-                <!--     *********    END PROJECTS 1      *********      -->
             </div>
             <div class="cd-section" id="blogs" >
                 <div class="blogs pt-0">

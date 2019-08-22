@@ -5,7 +5,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-translate">
             <a class="navbar-brand" href="{{ url('/') }}">
-                <img src="{{ asset('assets/svg/Full Logo.svg') }}" alt="" style="width: 100px; height: 100%;" >
+                <img src="{{ asset('assets/svg/Full Logo.svg') }}" alt="" style="width: 100px; height: 100%;">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
                 <span class="sr-only">Toggle navigation</span>
@@ -43,8 +43,6 @@
                 </li>
             </ul>
             <ul class="navbar-nav d-none d-lg-flex">
-
-                {{ $slot ?? '' }}
                 <li class="nav-item">
                     <a href="https://www.facebook.com/iotec.me" class="nav-link">
                         <i class="fa fa-facebook-square"></i>
@@ -55,6 +53,7 @@
                         <i class="fa fa-linkedin"></i>
                     </a>
                 </li>
+                {{ $slot ?? '' }}
             </ul>
         </div>
     </div>

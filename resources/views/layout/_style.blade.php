@@ -2,6 +2,7 @@
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 <!-- CSS Files -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
 <link href="{{ asset('assets/css/material-kit.css?v=2.1.0') }}" rel="stylesheet" />
 <!-- CUSTOM CSS Files -->
 <link href="{{ asset('assets/css/material-kit-custom.css?v=2.1.0') }}" rel="stylesheet" />
