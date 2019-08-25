@@ -52,7 +52,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Welcome</h1>
-                                            <h4>IOTec is a top Business and Technology Solutions team in Syria that excels in developing custom enterprise applications</h4>
+                                            <h4>IOTec is a top Business and Technology Solutions team in Syria that excels in developing custom enterprise applications, mobile solutions and state of the art IT solutions.
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -70,7 +70,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Programming</h1>
-                                            <h4>The development of reliable and scalable software solutions for any OS, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver the best solutions.</h4>
+                                            <h4>The development of reliable and scalable software solutions for any platform. We bring together deep industry expertise and the latest IT advancements to deliver the best solutions.
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -88,7 +88,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Android / IOS Mobile app</h1>
-                                            <h4>We continuously develop our own skill set to remain at the forefront of industry standards, in order to provide relevant, pertinent, and trend-setting apps for you and your customers.</h4>
+                                            <h4>We continuously develop our own skill set to remain at the forefront of industry standards, in order to provide relevant, pertinent, and trend-setting apps for you and your customers.
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -106,7 +106,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Web Design</h1>
-                                                                                        <h4>We deliver quality web design at affordable costs, our professional team has appreciable experience starting from simple websites to complex websites. We develop Customised Website, Blogs , CSM Systems, and more.</h4>
+                                            <h4>We deliver quality web design at affordable costs; with solid experience in simple and complex web apps. We develop customized Websites, Blogs, CSM Systems, and more.
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -124,7 +124,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Digital Markting</h1>
-                                                                                        <h4>We build the online identity for your successful company. With years of experience in making smart and modern holastic marketing strategies.</h4>
+                                            <h4>We build the online identity for your successful company and broadcast it all over social media with years of experience in making smart and modern marketing strategies.
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -142,7 +142,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">UI/UX Graphic Design</h1>
-                                            <h4>Our designs are meant to inspire action and created with the intent to convert. No matter what the project, we approach each piece with a marketer’s mindset, focusing on what will work best for your brand.</h4>
+                                            <h4>Our designs are meant to inspire action, no matter what is the project, we approach each piece with a marketer’s mindset, focusing on what will work best for your brand.
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -160,7 +160,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">3D / Motion Design</h1>
-                                            <h4>Our animation team offers affordable architecture and product visualization solutions that helps to convert client’s ideas into reality by delivering the best quality visuals under tight deadlines.</h4>
+                                            <h4>Our animation team offers affordable architecture and product visualization solutions that helps convert client’s ideas into reality by delivering the best quality visuals under tight deadlines.
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -178,7 +178,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Networking</h1>
-                                            <h4>At IOTec, we help you assess, design, and implement the physical infrastructure needed to provide a network that is flexible to the changing demands of your organization.</h4>
+                                            <h4>At IOTec, we help you assess, design, and implement the physical infrastructure needed to provide a network that is flexible to the changing demands of your organization.
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -222,7 +222,7 @@
                                     <i class="material-icons">extension</i>
                                 </div>
                                 <div class="description">
-                                    <h4 class="info-title">Hundreds of Components</h4>
+                                    <h4 class="info-title">Build Management Systems</h4>
                                     <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
                                 </div>
                             </div>
@@ -231,7 +231,7 @@
                                     <i class="material-icons">child_friendly</i>
                                 </div>
                                 <div class="description">
-                                    <h4 class="info-title">Easy to Use</h4>
+                                    <h4 class="info-title">Develop Modern Web Apps</h4>
                                     <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
                                 </div>
                             </div>
@@ -240,27 +240,28 @@
                                     <i class="material-icons">watch_later</i>
                                 </div>
                                 <div class="description">
-                                    <h4 class="info-title">Fast Prototyping</h4>
+                                    <h4 class="info-title">Make Clean Design</h4>
                                     <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 pl-5 pr-5">
-                            <div class="info info-horizontal">
+                             <div class="info info-horizontal">
                                 <div class="icon icon-primary">
                                     <i class="material-icons">extension</i>
                                 </div>
                                 <div class="description">
-                                    <h4 class="info-title">Hundreds of Components</h4>
+                                    <h4 class="info-title">Publish Digital Product</h4>
                                     <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-md-6 pl-5 pr-5">
+                           
                             <div class="info info-horizontal">
                                 <div class="icon icon-primary">
-                                    <i class="material-icons">child_friendly</i>
+                                    <i class="material-icons">watch_later</i>
                                 </div>
                                 <div class="description">
-                                    <h4 class="info-title">Easy to Use</h4>
+                                    <h4 class="info-title">Design network & security systems</h4>
                                     <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
                                 </div>
                             </div>
@@ -269,9 +270,27 @@
                                     <i class="material-icons">watch_later</i>
                                 </div>
                                 <div class="description">
-                                    <h4 class="info-title">Fast Prototyping</h4>
+                                    <h4 class="info-title">Implement enterprise level Data-centers</h4>
                                     <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
                                 </div>
+                            </div>
+                               <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">watch_later</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Provide IT Services</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                                <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">child_friendly</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">6 Month Free Support </h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
