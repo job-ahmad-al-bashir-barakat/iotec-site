@@ -52,7 +52,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Welcome</h1>
-                                            <h4>IOTec is a top Business and Technology Solutions team in Syria that excels in developing custom enterprise applications, mobile solutions and state of the art IT solutions.
+                                            <h4>IOTec is a top Business and Technology Solutions team in Syria that excels in developing custom enterprise applications, mobile solutions and state of the art IT solutions.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -70,7 +70,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Programming</h1>
-                                            <h4>The development of reliable and scalable software solutions for any platform. We bring together deep industry expertise and the latest IT advancements to deliver the best solutions.
+											<h4>The development of reliable and scalable software solutions for any platform. We bring together deep industry expertise and the latest IT advancements to deliver the best solutions.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -88,7 +88,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Android / IOS Mobile app</h1>
-                                            <h4>We continuously develop our own skill set to remain at the forefront of industry standards, in order to provide relevant, pertinent, and trend-setting apps for you and your customers.
+											<h4>We continuously develop our own skill set to remain at the forefront of industry standards, in order to provide relevant, pertinent, and trend-setting apps for you and your customers.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -106,7 +106,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Web Design</h1>
-                                            <h4>We deliver quality web design at affordable costs; with solid experience in simple and complex web apps. We develop customized Websites, Blogs, CSM Systems, and more.
+											<h4>We deliver quality web design at affordable costs; with solid experience in simple and complex web apps. We develop customized Websites, Blogs, CSM Systems, and more.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -124,7 +124,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Digital Markting</h1>
-                                            <h4>We build the online identity for your successful company and broadcast it all over social media with years of experience in making smart and modern marketing strategies.
+											<h4>We build the online identity for your successful company and broadcast it all over social media with years of experience in making smart and modern marketing strategies.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -142,7 +142,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">UI/UX Graphic Design</h1>
-                                            <h4>Our designs are meant to inspire action, no matter what is the project, we approach each piece with a marketer’s mindset, focusing on what will work best for your brand.
+											<h4>Our designs are meant to inspire action, no matter what is the project, we approach each piece with a marketer’s mindset, focusing on what will work best for your brand.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -160,7 +160,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">3D / Motion Design</h1>
-                                            <h4>Our animation team offers affordable architecture and product visualization solutions that helps convert client’s ideas into reality by delivering the best quality visuals under tight deadlines.
+											<h4>Our animation team offers affordable architecture and product visualization solutions that helps convert client’s ideas into reality by delivering the best quality visuals under tight deadlines.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -178,7 +178,7 @@
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Networking</h1>
-                                            <h4>At IOTec, we help you assess, design, and implement the physical infrastructure needed to provide a network that is flexible to the changing demands of your organization.
+											<h4>At IOTec, we help you assess, design, and implement the physical infrastructure needed to provide a network that is flexible to the changing demands of your organization.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
