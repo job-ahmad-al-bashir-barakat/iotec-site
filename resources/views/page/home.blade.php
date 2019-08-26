@@ -1,11 +1,12 @@
 @extends('layout.master')
 
 @section('styles')
-    <link href="{{ asset('assets/js/plugins/owl-carousel/owl.carousel.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/js/plugins/owl-carousel/owl.carousel.css') }}" rel="stylesheet"/>
     <style>
         .owl-carousel .item img {
             width: 60%;
         }
+
         .blogs h5.description {
             margin-bottom: 70px;
         }
@@ -14,9 +15,11 @@
             margin-top: 70px;
             margin-bottom: 30px;
         }
+
         .projects-1 .card .card-title {
             margin-bottom: 0.625rem;
         }
+
         .projects-1 .card-body {
             padding: 60px;
         }
@@ -33,8 +36,8 @@
 
         <div class="cd-section" id="home">
             <div class="header-1">
-                @include('layout._nav', ['isHash' => true ])
-                <!-- Carousel Card -->
+            @include('layout._nav', ['isHash' => true ])
+            <!-- Carousel Card -->
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -47,12 +50,15 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="page-header header-filter" style="background-image: url('{{ asset('assets/img/bg/14.jpg') }}');">
+                            <div class="page-header header-filter"
+                                 style="background-image: url('{{ asset('assets/img/bg/14.jpg') }}');">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Welcome</h1>
-                                            <h4>IOTec is a top Business and Technology Solutions team in Syria that excels in developing custom enterprise applications, mobile solutions and state of the art IT solutions.</h4>
+                                            <h4>IOTec is a top Business and Technology Solutions team in Syria that
+                                                excels in developing custom enterprise applications, mobile solutions
+                                                and state of the art IT solutions.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -65,12 +71,15 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="page-header header-filter" style="background-image: url('{{ asset('assets/img/bg/3.jpg') }}');">
+                            <div class="page-header header-filter"
+                                 style="background-image: url('{{ asset('assets/img/bg/3.jpg') }}');">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Programming</h1>
-											<h4>The development of reliable and scalable software solutions for any platform. We bring together deep industry expertise and the latest IT advancements to deliver the best solutions.</h4>
+                                            <h4>The development of reliable and scalable software solutions for any
+                                                platform. We bring together deep industry expertise and the latest IT
+                                                advancements to deliver the best solutions.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -83,12 +92,15 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="page-header header-filter" style="background-image: url('{{ asset('assets/img/bg/9.jpg') }}');">
+                            <div class="page-header header-filter"
+                                 style="background-image: url('{{ asset('assets/img/bg/9.jpg') }}');">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Android / IOS Mobile app</h1>
-											<h4>We continuously develop our own skill set to remain at the forefront of industry standards, in order to provide relevant, pertinent, and trend-setting apps for you and your customers.</h4>
+                                            <h4>We continuously develop our own skill set to remain at the forefront of
+                                                industry standards, in order to provide relevant, pertinent, and
+                                                trend-setting apps for you and your customers.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -101,12 +113,15 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="page-header header-filter" style="background-image: url('{{ asset('assets/img/bg/15.jpg') }}');">
+                            <div class="page-header header-filter"
+                                 style="background-image: url('{{ asset('assets/img/bg/15.jpg') }}');">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Web Design</h1>
-											<h4>We deliver quality web design at affordable costs; with solid experience in simple and complex web apps. We develop customized Websites, Blogs, CSM Systems, and more.</h4>
+                                            <h4>We deliver quality web design at affordable costs; with solid experience
+                                                in simple and complex web apps. We develop customized Websites, Blogs,
+                                                CSM Systems, and more.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -119,12 +134,15 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="page-header header-filter" style="background-image: url('{{ asset('assets/img/bg/19.jpg') }}');">
+                            <div class="page-header header-filter"
+                                 style="background-image: url('{{ asset('assets/img/bg/19.jpg') }}');">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Digital Markting</h1>
-											<h4>We build the online identity for your successful company and broadcast it all over social media with years of experience in making smart and modern marketing strategies.</h4>
+                                            <h4>We build the online identity for your successful company and broadcast
+                                                it all over social media with years of experience in making smart and
+                                                modern marketing strategies.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -137,12 +155,15 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="page-header header-filter" style="background-image: url('{{ asset('assets/img/bg/1.jpg') }}');">
+                            <div class="page-header header-filter"
+                                 style="background-image: url('{{ asset('assets/img/bg/1.jpg') }}');">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">UI/UX Graphic Design</h1>
-											<h4>Our designs are meant to inspire action, no matter what is the project, we approach each piece with a marketer’s mindset, focusing on what will work best for your brand.</h4>
+                                            <h4>Our designs are meant to inspire action, no matter what is the project,
+                                                we approach each piece with a marketer’s mindset, focusing on what will
+                                                work best for your brand.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -155,12 +176,15 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="page-header header-filter" style="background-image: url('{{ asset('assets/img/bg/16.jpg') }}');">
+                            <div class="page-header header-filter"
+                                 style="background-image: url('{{ asset('assets/img/bg/16.jpg') }}');">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">3D / Motion Design</h1>
-											<h4>Our animation team offers affordable architecture and product visualization solutions that helps convert client’s ideas into reality by delivering the best quality visuals under tight deadlines.</h4>
+                                            <h4>Our animation team offers affordable architecture and product
+                                                visualization solutions that helps convert client’s ideas into reality
+                                                by delivering the best quality visuals under tight deadlines.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -173,12 +197,15 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <div class="page-header header-filter" style="background-image: url('{{ asset('assets/img/bg/18.jpg') }}');">
+                            <div class="page-header header-filter"
+                                 style="background-image: url('{{ asset('assets/img/bg/18.jpg') }}');">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-md-8 ml-auto mr-auto text-center">
                                             <h1 class="title">Networking</h1>
-											<h4>At IOTec, we help you assess, design, and implement the physical infrastructure needed to provide a network that is flexible to the changing demands of your organization.</h4>
+                                            <h4>At IOTec, we help you assess, design, and implement the physical
+                                                infrastructure needed to provide a network that is flexible to the
+                                                changing demands of your organization.</h4>
                                             <br>
                                             <div class="buttons">
                                                 <a href="#contactus" class="btn btn-danger btn-lg">
@@ -211,86 +238,101 @@
                     <div class="row" style="margin-bottom: 70px;">
                         <div class="col-md-8 ml-auto mr-auto text-center">
                             <h2 class="title">Our Services</h2>
-                            <h5 class="description">list of our services that we can gladly provide to users around the clock, so take a quick look to get to know us and what we able to do.</h5>
+                            <h5 class="description">list of our services that we can gladly provide to users around the
+                                clock, so take a quick look to get to know us and what we able to do.</h5>
                         </div>
                     </div>
                     <div class="row">
-
                         <div class="col-md-6 pl-5 pr-5">
                             <div class="info info-horizontal">
                                 <div class="icon icon-primary">
-                                    <i class="material-icons">extension</i>
+                                    <i class="material-icons">code</i>
                                 </div>
                                 <div class="description">
-                                    <h4 class="info-title">Build Management Systems</h4>
-                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+                                    <h4 class="info-title">Build Modern App</h4>
+                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like
+                                        it. With a single use, this powerfull UI Kit lets you do more than ever
+                                        before. </p>
                                 </div>
                             </div>
+
                             <div class="info info-horizontal">
                                 <div class="icon icon-primary">
-                                    <i class="material-icons">child_friendly</i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">Develop Modern Web Apps</h4>
-                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                </div>
-                            </div>
-                            <div class="info info-horizontal">
-                                <div class="icon icon-primary">
-                                    <i class="material-icons">watch_later</i>
+                                    <i class="material-icons">eco</i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Make Clean Design</h4>
-                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines
+                                        about each one. A paragraph describing a feature will be enough.</p>
                                 </div>
                             </div>
-                             <div class="info info-horizontal">
+
+                            <div class="info info-horizontal">
                                 <div class="icon icon-primary">
-                                    <i class="material-icons">extension</i>
+                                    <i class="material-icons">share</i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Publish Digital Product</h4>
-                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before. </p>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines
+                                        about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
+
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">contact_support</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">6 Month Support</h4>
+                                    <p>The moment you use Material Kit, you know you&#x2019;ve never felt anything like
+                                        it. With a single use, this powerfull UI Kit lets you do more than ever
+                                        before. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 pl-5 pr-5">
-                           
                             <div class="info info-horizontal">
                                 <div class="icon icon-primary">
-                                    <i class="material-icons">watch_later</i>
+                                    <i class="material-icons">record_voice_over</i>
                                 </div>
                                 <div class="description">
-                                    <h4 class="info-title">Design network & security systems</h4>
-                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                    <h4 class="info-title">Design Network Systems</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines
+                                        about each one. A paragraph describing a feature will be enough.</p>
                                 </div>
                             </div>
+
                             <div class="info info-horizontal">
                                 <div class="icon icon-primary">
-                                    <i class="material-icons">watch_later</i>
+                                    <i class="material-icons">dns</i>
                                 </div>
                                 <div class="description">
-                                    <h4 class="info-title">Implement enterprise level Data-centers</h4>
-                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                    <h4 class="info-title">Implement enterprise Data-centers</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines
+                                        about each one. A paragraph describing a feature will be enough.</p>
                                 </div>
                             </div>
-                               <div class="info info-horizontal">
+
+                            <div class="info info-horizontal">
                                 <div class="icon icon-primary">
-                                    <i class="material-icons">watch_later</i>
+                                    <i class="material-icons">wifi</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Provide Technical Support</h4>
+                                    <p>Divide details about your product or agency work into parts. Write a few lines
+                                        about each one. A paragraph describing a feature will be enough.</p>
+                                </div>
+                            </div>
+
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">settings_input_hdmi</i>
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Provide IT Services</h4>
-                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+                                    <p>Divide details about your product or agency work into parts. Write a few
+                                        lines about each one. A paragraph describing a feature will be enough.</p>
                                 </div>
-                                <div class="info info-horizontal">
-                                <div class="icon icon-primary">
-                                    <i class="material-icons">child_friendly</i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">6 Month Free Support </h4>
-                                    <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                </div>
-                            </div>
                             </div>
                         </div>
                     </div>
@@ -299,7 +341,8 @@
             </div>
         </div>
 
-        <div class="cd-section section-image" style="background-image: url('{{{ asset('assets/img/bg7.jpg') }}}')" id="teams">
+        <div class="cd-section section-image" style="background-image: url('{{{ asset('assets/img/bg7.jpg') }}}')"
+             id="teams">
             <div class="team-3">
                 <div class="container">
                     <div class="row">
@@ -316,7 +359,8 @@
                                     <div class="col-md-5">
                                         <div class="card-header card-header-image">
                                             <a href="#ABBarakat">
-                                                <img class="img" src="{{ asset('assets/img/faces/card-profile1-ahmad.jpg') }}" />
+                                                <img class="img"
+                                                     src="{{ asset('assets/img/faces/card-profile1-ahmad.jpg') }}"/>
                                             </a>
                                         </div>
                                     </div>
@@ -325,11 +369,15 @@
                                             <h4 class="card-title">Ahmad Al Bashir Barakat</h4>
                                             <h6 class="card-category text-muted">Full Stack Developer - Cairo</h6>
                                             <p class="card-description">
-                                                Software Engineer, dedicated to Full Stack Web Development.                                             </p>
+                                                Software Engineer, dedicated to Full Stack Web Development. </p>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="https://www.linkedin.com/in/ahmad-al-bashir-barakat" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-linkedin"></i></a>
-                                            <a href="https://github.com/job-ahmad-al-bashir-barakat" class="btn btn-just-icon btn-link {{--btn-white--}}"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.linkedin.com/in/ahmad-al-bashir-barakat"
+                                               class="btn btn-just-icon btn-link {{--btn-white--}}"><i
+                                                        class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/job-ahmad-al-bashir-barakat"
+                                               class="btn btn-just-icon btn-link {{--btn-white--}}"><i
+                                                        class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -341,21 +389,28 @@
                                     <div class="col-md-5">
                                         <div class="card-header card-header-image">
                                             <a href="#safibeik">
-                                                <img class="img" src="{{  asset('assets/img/faces/card-profile1-safi.jpg') }}" />
+                                                <img class="img"
+                                                     src="{{  asset('assets/img/faces/card-profile1-safi.jpg') }}"/>
                                             </a>
                                         </div>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="card-body">
                                             <h4 class="card-title">Safi Beik Karbouj</h4>
-                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer - Damascus</h6>
+                                            <h6 class="card-category text-muted">ASP.Net & IT Network Engineer -
+                                                Damascus</h6>
                                             <p class="card-description">
-                                                Network Engineer, .Net Developer for Software Solutions and Mobile Applications.
+                                                Network Engineer, .Net Developer for Software Solutions and Mobile
+                                                Applications.
                                             </p>
                                         </div>
                                         <div class="card-footer">
-                                            <a href="https://www.linkedin.com/in/safibeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-linkedin"></i></a>
-                                            <a href="https://github.com/SafiBeik/" class="btn btn-just-icon btn-link{{-- btn-white--}}"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.linkedin.com/in/safibeik/"
+                                               class="btn btn-just-icon btn-link{{-- btn-white--}}"><i
+                                                        class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/SafiBeik/"
+                                               class="btn btn-just-icon btn-link{{-- btn-white--}}"><i
+                                                        class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -388,12 +443,17 @@
                                                     <div class="card-body">
                                                         <h6 class="card-category text-info">Productivity</h6>
                                                         <a href="#pablo">
-                                                            <h3 class="card-title">The Best Productivity Apps on Market</h3>
+                                                            <h3 class="card-title">The Best Productivity Apps on
+                                                                Market</h3>
                                                         </a>
                                                         <p class="card-description">
-                                                            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                                                            Don't be scared of the truth because we need to restart the
+                                                            human foundation in truth And I love you like Kanye loves
+                                                            Kanye I love Rick Owens’ bed design but the back is...
                                                         </p>
-                                                        <a href="javascript:;" class="btn btn-danger btn-round" data-src="https://www.youtube.com/watch?v=4zzbNac6f6Q" data-fancybox>
+                                                        <a href="javascript:;" class="btn btn-danger btn-round"
+                                                           data-src="https://www.youtube.com/watch?v=4zzbNac6f6Q"
+                                                           data-fancybox>
                                                             <i class="material-icons">content_copy</i> View App
                                                         </a>
                                                     </div>
@@ -404,12 +464,17 @@
                                                     <div class="card-body">
                                                         <h6 class="card-category text-info">Productivity</h6>
                                                         <a href="#pablo">
-                                                            <h3 class="card-title">The Best Productivity Apps on Market</h3>
+                                                            <h3 class="card-title">The Best Productivity Apps on
+                                                                Market</h3>
                                                         </a>
                                                         <p class="card-description">
-                                                            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                                                            Don't be scared of the truth because we need to restart the
+                                                            human foundation in truth And I love you like Kanye loves
+                                                            Kanye I love Rick Owens’ bed design but the back is...
                                                         </p>
-                                                        <a href="javascript:;" class="btn btn-danger btn-round" data-src="https://www.youtube.com/watch?v=4zzbNac6f6Q" data-fancybox>
+                                                        <a href="javascript:;" class="btn btn-danger btn-round"
+                                                           data-src="https://www.youtube.com/watch?v=4zzbNac6f6Q"
+                                                           data-fancybox>
                                                             <i class="material-icons">content_copy</i> View App
                                                         </a>
                                                     </div>
@@ -425,12 +490,17 @@
                                                     <div class="card-body">
                                                         <h6 class="card-category text-info">Productivity</h6>
                                                         <a href="#pablo">
-                                                            <h3 class="card-title">The Best Productivity Apps on Market</h3>
+                                                            <h3 class="card-title">The Best Productivity Apps on
+                                                                Market</h3>
                                                         </a>
                                                         <p class="card-description">
-                                                            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                                                            Don't be scared of the truth because we need to restart the
+                                                            human foundation in truth And I love you like Kanye loves
+                                                            Kanye I love Rick Owens’ bed design but the back is...
                                                         </p>
-                                                        <a href="javascript:;" class="btn btn-danger btn-round" data-src="https://www.youtube.com/watch?v=4zzbNac6f6Q" data-fancybox>
+                                                        <a href="javascript:;" class="btn btn-danger btn-round"
+                                                           data-src="https://www.youtube.com/watch?v=4zzbNac6f6Q"
+                                                           data-fancybox>
                                                             <i class="material-icons">content_copy</i> View App
                                                         </a>
                                                     </div>
@@ -444,13 +514,14 @@
                     </div>
                 </div>
             </div>
-            <div class="cd-section" id="blogs" >
+            <div class="cd-section" id="blogs">
                 <div class="blogs pt-0">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 ml-auto mr-auto text-center">
                                 <h2 class="title">Blog Feeds</h2>
-                                <h5 class="description">Read our most recent articles in programming and networks tech feed and be ready to know new idea every day to expand your knowlage.</h5>
+                                <h5 class="description">Read our most recent articles in programming and networks tech
+                                    feed and be ready to know new idea every day to expand your knowlage.</h5>
                             </div>
                         </div>
                         <div class="row">
@@ -503,17 +574,20 @@
                     </div>
                 </div>
             </div>
-            <div class="cd-section"  id="partners">
-            <div class="clients-1 pt-0">
-                <div class="container">
-                    <div class="row ">
-                        <div class="col-md-12">
-                            <div class="owl-carousel owl-theme">
-                                <div class="item">
-                                    <img src="{{ asset('assets/svg/G1.svg') }}" alt="" style="filter:contrast(0); width:180px; height: 100%;" >
-                                </div>
-                                <div class="item">
-                                    <img src="{{ asset('assets/svg/FTC.svg') }}" alt="" style="filter:contrast(0); width:180px; height: 100%;" >
+            <div class="cd-section" id="partners">
+                <div class="clients-1 pt-0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-md-12">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img src="{{ asset('assets/svg/G1.svg') }}" alt=""
+                                             style="filter:contrast(0); width:180px; height: 100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="{{ asset('assets/svg/FTC.svg') }}" alt=""
+                                             style="filter:contrast(0); width:180px; height: 100%;">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -521,14 +595,15 @@
                 </div>
             </div>
         </div>
-        </div>
         <div class="cd-section" id="contactus">
-            <div class="contactus-1 section-image" style="background-image: url('{{ asset('assets/img/examples/city.jpg') }}')">
+            <div class="contactus-1 section-image"
+                 style="background-image: url('{{ asset('assets/img/examples/city.jpg') }}')">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
                             <h2 class="title">Get in Touch</h2>
-                            <h5 class="description">Describe your product and our team will make it for you and get it ready for use.</h5>
+                            <h5 class="description">Describe your product and our team will make it for you and get it
+                                ready for use.</h5>
                             <div class="info info-horizontal">
                                 <div class="icon icon-primary">
                                     <i class="material-icons">pin_drop</i>
@@ -572,7 +647,8 @@
                                             <div class="col-md-6">
                                                 <div class="form-group label-floating is-empty">
                                                     <label class="bmd-label-floating">First name</label>
-                                                    <input type="text" id="first-name" name="first_name" class="form-control" required>
+                                                    <input type="text" id="first-name" name="first_name"
+                                                           class="form-control" required>
                                                     <span class="material-input"></span>
                                                     @if($errors->has('first_name'))
                                                         <div class="d-block invalid-feedback">
@@ -584,7 +660,8 @@
                                             <div class="col-md-6">
                                                 <div class="form-group label-floating is-empty">
                                                     <label class="bmd-label-floating">Last name</label>
-                                                    <input type="text" id="last-name" name="last_name" class="form-control" required>
+                                                    <input type="text" id="last-name" name="last_name"
+                                                           class="form-control" required>
                                                     <span class="material-input"></span>
                                                     @if($errors->has('last_name'))
                                                         <div class="d-block invalid-feedback">
@@ -598,7 +675,8 @@
                                             <div class="col-md-6">
                                                 <div class="form-group label-floating is-empty">
                                                     <label class="bmd-label-floating">Email address</label>
-                                                    <input type="email" id="email" name="email" class="form-control" required>
+                                                    <input type="email" id="email" name="email" class="form-control"
+                                                           required>
                                                     <span class="material-input"></span>
                                                     @if($errors->has('email'))
                                                         <div class="d-block invalid-feedback">
@@ -610,7 +688,8 @@
                                             <div class="col-md-6">
                                                 <div class="form-group label-floating is-empty">
                                                     <label class="bmd-label-floating">Phone</label>
-                                                    <input type="phone" name="phone" id="phone" class="form-control" required>
+                                                    <input type="phone" name="phone" id="phone" class="form-control"
+                                                           required>
                                                     <span class="material-input"></span>
                                                     @if($errors->has('phone'))
                                                         <div class="d-block invalid-feedback">
@@ -623,7 +702,8 @@
 
                                         <div class="form-group label-floating is-empty">
                                             <label for="exampleMessage1" class="bmd-label-floating">Your Message</label>
-                                            <textarea name="message" class="form-control" id="message" rows="6" required></textarea>
+                                            <textarea name="message" class="form-control" id="message" rows="6"
+                                                      required></textarea>
                                             <span class="material-input"></span>
                                             @if($errors->has('message'))
                                                 <div class="d-block invalid-feedback">
@@ -646,8 +726,9 @@
 
     <footer class="footer footer-white footer-big">
         <div class="container">
-            <a class="navbar-brand m-0" href="{{ url('/') }}" style="width:50px; opacity: 0.2; margin-bottom: 15px !important;">
-                <img src="{{ asset('assets/svg/Logo.svg') }}" alt="" style="height: 100%;" >
+            <a class="navbar-brand m-0" href="{{ url('/') }}"
+               style="width:50px; opacity: 0.2; margin-bottom: 15px !important;">
+                <img src="{{ asset('assets/svg/Logo.svg') }}" alt="" style="height: 100%;">
             </a>
             <ul>
                 <li>
