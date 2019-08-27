@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class MainControler extends Controller
 {
@@ -40,7 +42,20 @@ class MainControler extends Controller
         return view('page.blog');
     }
 
-    function contact() {
-        dd(\request()->input());
+    function contact(Request $request) {
+
+        $this->validate($request, [
+            "first_name"  => "required",
+            "last_name"   => "required",
+            "email"       => "required|email",
+            "phone"       => "required",
+            "subject"     => "required",
+            "message"     => "required",
+            "check_robot" => "required",
+        ]);
+
+        Mail::send(new ContactMail($request));
+
+        return \Redirect::to('/#contactus');
     }
 }

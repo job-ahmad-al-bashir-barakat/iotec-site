@@ -636,7 +636,7 @@
                         </div>
                         <div class="col-md-5 ml-auto">
                             <div class="card card-contact">
-                                <form id="contact-form" method="post" action="{{ url('contact') }}">
+                                <form id="contact-form" method="post" action="{{ url('contact') }}" onsubmit="return checkForm(this);">
                                     {{ csrf_field() }}
                                     <input type="hidden" name="_method" value="post">
                                     <div class="card-header card-header-raised card-header-primary text-center">
@@ -701,6 +701,18 @@
                                         </div>
 
                                         <div class="form-group label-floating is-empty">
+                                            <div class="form-group label-floating is-empty">
+                                                <label class="bmd-label-floating">Subject</label>
+                                                <input type="text" name="subject" id="subject" class="form-control" required>
+                                                <span class="material-input"></span>
+                                                @if($errors->has('subject'))
+                                                    <div class="d-block invalid-feedback">
+                                                        {{ $errors->first('subject') }}
+                                                    </div>
+                                                @endif
+                                            </div>
+                                        </div>
+                                        <div class="form-group label-floating is-empty">
                                             <label for="exampleMessage1" class="bmd-label-floating">Your Message</label>
                                             <textarea name="message" class="form-control" id="message" rows="6"
                                                       required></textarea>
@@ -713,7 +725,32 @@
                                         </div>
                                     </div>
                                     <div class="card-footer justify-content-between">
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" id="check-robot" name="check_robot" type="checkbox"> I'm not a robot
+                                                <span class="form-check-sign">
+                                                    <span class="check"></span>
+                                                </span>
+                                            </label>
+                                        </div>
                                         <button type="submit" class="btn btn-primary pull-right">Send Message</button>
+                                    </div>
+                                    <div class="card-footer p-0 d-none">
+                                        <div class="alert alert-danger w-100 mb-0" style="border-radius: 0 0 6px 6px;">
+                                            <div class="container">
+                                                <div class="alert-icon">
+                                                    <i class="material-icons">error_outline</i>
+                                                </div>
+                                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                    <span aria-hidden="true"><i class="material-icons">clear</i></span>
+                                                </button>
+                                                @if($errors->has('check_robot'))
+                                                    <b>Error Alert:</b> {{ $errors->first('check_robot') }}...
+                                                @else
+                                                    <b>Error Alert:</b> The check robot field is required...
+                                                @endif
+                                            </div>
+                                        </div>
                                     </div>
                                 </form>
                             </div>
@@ -747,7 +784,7 @@
                     </a>
                 </li>
             </ul>
-            @include('layout._copyright',['made' => true])
+            @include('layout._copyright')
         </div>
     </footer>
     @include('layout._vertical_nav')
@@ -757,4 +794,16 @@
 @section('scripts')
     <!-- Plugin for Owl -->
     <script src="{{ asset('assets/js/plugins/owl-carousel/owl.carousel.js') }}" type="text/javascript"></script>
+    <script>
+        function checkForm(form)
+        {
+            var alert = $('.card-footer').last();
+            if(!$('#check-robot').prop('checked')) {
+                alert.removeClass('d-none');
+                form.check_robot.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
 @endsection
