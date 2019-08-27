@@ -38,6 +38,7 @@ class ContactMail extends Mailable
                     ->view('mail.contact',[
                         'subject' => $this->email->get('subject'),
                         'content' => $this->email->get('message'),
+                        'phone'   => $this->email->get('phone'),
                     ]);
     }
 }
