@@ -159,7 +159,7 @@
                          <h3>{!! $subject !!}</h3>
                          @if(!empty($phone))
                              <p style="margin-top: 20px;font-weight:bold;">
-                                 <img src="https://www.iotec.me/assets/svg/telephone.svg" style="width: 13px; vertical-align: middle; margin-right: 10px;fill: #7b1fa2;"/>
+                                 <img src="https://www.iotec.me/assets/img/email/telephone.png" style="width: 13px; vertical-align: middle; margin-right: 10px;fill: #7b1fa2;"/>
                                  {{ $phone }}
                              </p>
                          @endif
