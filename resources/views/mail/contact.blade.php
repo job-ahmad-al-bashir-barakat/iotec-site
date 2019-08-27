@@ -204,7 +204,7 @@
                          <p style="margin: 0;">
                              <a href="{{ url('blog') }}" target="_blank" style="color: #999999; font-weight: 700;">Blog</a>
                              -
-                             <a href="{{ url('dev-feeds') }}" target="_blank" style="color: #999999; font-weight: 700;">Dev Feeds</a>
+                             <a href="{{ url('dev-feed') }}" target="_blank" style="color: #999999; font-weight: 700;">Dev Feed</a>
                              -
                              <a href="{{ url('faq') }}" target="_blank"
                                 style="color: #999999; font-weight: 700;">FAQ</a>
