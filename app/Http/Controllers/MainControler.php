@@ -56,6 +56,6 @@ class MainControler extends Controller
 
         Mail::send(new ContactMail($request));
 
-        return \Redirect::to('/#contactus');
+        return \Redirect::to('/#contactus')->with('message', 'Message send successfuly!');
     }
 }

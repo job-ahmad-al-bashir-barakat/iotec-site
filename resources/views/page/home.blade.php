@@ -752,6 +752,21 @@
                                             </div>
                                         </div>
                                     </div>
+                                    @if(session()->has('message'))
+                                        <div class="card-footer p-0">
+                                            <div class="alert alert-success w-100 mb-0" style="border-radius: 0 0 6px 6px;">
+                                                <div class="container">
+                                                    <div class="alert-icon">
+                                                        <i class="material-icons">check</i>
+                                                    </div>
+                                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                        <span aria-hidden="true"><i class="material-icons">clear</i></span>
+                                                    </button>
+                                                    <b>Success Alert:</b> {{ session()->get('message') }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endif
                                 </form>
                             </div>
                         </div>

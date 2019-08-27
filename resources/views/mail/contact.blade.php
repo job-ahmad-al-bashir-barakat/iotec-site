@@ -156,10 +156,10 @@
                  <tbody>
                  <tr>
                      <td bgcolor="#ffffff" align="left" style="padding: 30px 30px 0;color:#666666;font-family:'Lato',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:25px">
-                         <h3>{!! $subject !!}</h3>
+                         <h2>{!! $subject !!}</h2>
                          @if(!empty($phone))
                              <p style="margin-top: 20px;font-weight:bold;">
-                                 <img src="https://www.iotec.me/assets/img/email/telephone.png" style="width: 13px; vertical-align: middle; margin-right: 10px;fill: #7b1fa2;"/>
+                                 <img src="https://www.iotec.me/assets/img/email/telephone.png" style="width: 15px; vertical-align: middle; margin-right: 10px;fill: #7b1fa2;"/>
                                  {{ $phone }}
                              </p>
                          @endif
@@ -202,11 +202,11 @@
                      <td bgcolor="#f4f4f4" align="left"
                          style="padding: 30px 30px 30px 30px;color: #aaaaaa;font-family: 'Lato', Helvetica, Arial, sans-serif;font-size: 12px;font-weight: 400;line-height: 18px;text-align: center;">
                          <p style="margin: 0;">
-                             <a href="http://thetheme.io" target="_blank" style="color: #999999; font-weight: 700;">Blog</a>
+                             <a href="{{ url('blog') }}" target="_blank" style="color: #999999; font-weight: 700;">Blog</a>
                              -
-                             <a href="http://thetheme.io" target="_blank" style="color: #999999; font-weight: 700;">Dev Feeds</a>
+                             <a href="{{ url('dev-feeds') }}" target="_blank" style="color: #999999; font-weight: 700;">Dev Feeds</a>
                              -
-                             <a href="http://thetheme.io" target="_blank"
+                             <a href="{{ url('faq') }}" target="_blank"
                                 style="color: #999999; font-weight: 700;">FAQ</a>
                          </p>
                      </td>
