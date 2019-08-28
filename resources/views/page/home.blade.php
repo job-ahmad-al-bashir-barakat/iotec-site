@@ -7,7 +7,8 @@
         width: 60%;
     }
 
-    .blogs h5.description {
+    .blogs h5.description,
+	.clients-1 h5.description{
         margin-bottom: 70px;
     }
 
@@ -636,9 +637,6 @@
 							<h5 class="description">
 								Our clients trust us to get the job done.
 							</h5>
-							<br />
-							<br />
-							<br />
 						</div>
 					</div>
 					<div class="row">
