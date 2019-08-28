@@ -7,6 +7,10 @@
         width: 60%;
     }
 
+    .owl-stage {
+        margin: auto;
+    }
+
     .blogs h5.description,
 	.clients-1 h5.description{
         margin-bottom: 70px;
