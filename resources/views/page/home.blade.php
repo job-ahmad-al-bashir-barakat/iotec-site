@@ -7,7 +7,7 @@
         width: 60%;
     }
 
-    .owl-stage {
+    .owl-carousel .owl-stage {
         margin: auto;
     }
 

@@ -15,7 +15,8 @@
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
         "orangehill/iseed": "^2.6",
-        "spatie/laravel-blade-x": "^2.1"
+        "spatie/laravel-blade-x": "^2.1",
+        "writingink/wink": "^0.0.13"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
